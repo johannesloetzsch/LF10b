@@ -1,0 +1,1 @@
+# Maßnahmen bei kritischen Zuständen

@@ -1,0 +1,12 @@
+[book]
+authors = ["Johannes Lötzsch"]
+language = "de"
+multilingual = false
+src = "src"
+title = "LF10b: Serverdienste bereitstellen und Administrationsaufgaben automatisieren"
+[preprocessor]
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+[output]
+[output.html]
+additional-js =["mermaid.min.js", "mermaid-init.js"]
