@@ -1,1 +1,7 @@
 # Datensicherung
+
+## Ziele
+
+## Anforderungen
+
+## Lösungen
