@@ -1,33 +1,24 @@
 # Versionierung
 
-## SCM (**Source Code Management**)
+## Backups
 
-### Dezentral
-
-* **Git**
-* Mercurial (hg)
-* Bazaar
-
-### Zentral
-
-* SVN (Subversion)
-* CVS (Concurrent Versions System)
-
-* `diff` + `patch`
-* \*~
-
-## Dateisysteme
-
-### Snapshots
+## Dateisystem-Snapshots
 
 * ZFS
 * btrfs
 
-### Images
+## SCM (**Source Code Management**)
 
-## Backups
+### Zentral
 
-> *2023 Sommer SI Konzeption — Aufgabe 4a*
->
-> * **Inkrementelle Backups**
-> * **Differenzielle Backups**
+* \*~
+* `diff` + `patch`
+
+* CVS (Concurrent Versions System)
+* SVN (Subversion)
+
+### Dezentral
+
+* Bazaar
+* Mercurial (hg)
+* **Git**
