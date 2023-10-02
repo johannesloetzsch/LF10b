@@ -1,6 +1,7 @@
 # Summary
 
 * [Ziele](./ziele.md)
+  * [Plan](./plan.md)
 * [Informieren und Auswahl](./auswahl.md)
   * [Informieren](./informieren.md)
     * [Serverdienste](./serverdienste.md)

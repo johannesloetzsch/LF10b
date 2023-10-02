@@ -13,5 +13,3 @@
   * `Dokumentation von Ergebnissen`
 * **`Automatisierung von Administrationsprozessen`** in Abhängigkeit `kundenspezifischer Rahmenbedingungen`, `testen` und `optimieren`
 * `Reflektieren von Lösungen` und `Beurteilen` hinsichtlich Kundenanforderungen
-
-
