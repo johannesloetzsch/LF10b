@@ -1,5 +1,7 @@
 # Sicherheit
 
+Erwartetungswert<sub>Schaden</sub> = ∑ Wahrscheinlichkeit<sub>Schadenseintritt</sub> * Schadenshöhe<sub>Schadensfall</sub>
+
 ## Schutzziele und Maßnahmen
 
 ```mermaid

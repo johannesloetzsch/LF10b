@@ -2,7 +2,7 @@
 
 ```mermaid
 flowchart TB
-  Skallierbarkeit --> NodeBalancer
+  Skallierbarkeit --> LodeBalancer
   Skallierbarkeit --> Multicast
   Skallierbarkeit --> Cluster
 ```

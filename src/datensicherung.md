@@ -4,11 +4,9 @@
 
 > Für welche **Ereignisse** werden Backups benötigt?
 
-### RAID
+### RAID?
 
 > Sind **RAID**-Lösungen und **Snapshots** von Dateisystemen eine sinnvolle Backupoption?
-
-> Welche **RAID-Level** kennt ihr?
 
 ## Anforderungen
 

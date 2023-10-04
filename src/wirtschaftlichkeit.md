@@ -2,7 +2,10 @@
 
 ```mermaid
 flowchart TB
-  Wirtschaftlichkeit --> Automatisierung
   Wirtschaftlichkeit --> Verfügbarkeit
   Wirtschaftlichkeit --> Sicherheit
+  Sicherheit --> Verfügbarkeit
+  Wirtschaftlichkeit --> Automatisierung
+  Automatisierung --> Skalierbarkeit
+  Automatisierung --> Administrierbarkeit
 ```
