@@ -22,7 +22,7 @@
 * [Implementierung](./implementierung.md)
   * [Berücksichtigung betrieblicher Vorgaben und Lizenzierungen](./betriebliche_vorgaben.md)
   * [Testverfahren](./testverfahren.md)
-  * [**Monitoring**](./monitoring_implementierung.md)
+  * [**Monitoring**](./monitoring.md)
   * [**Maßnahmen bei kritischen Zuständen**](./kritische_zustaende.md)
   * [Dokumentation von Ergebnissen](./dokumentation.md)
 * [**Automatisierung von Administrationsprozessen**](./automatisierung.md)

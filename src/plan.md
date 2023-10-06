@@ -27,7 +27,7 @@ gantt
 ```
 
 ## Leistungskontrollen
-* Do 12.10. **Klausur: doppelte Wertung, 90min**
+* Do 12.10. **Klausur: doppelte Wertung, 90min, handschriftlich**
   * Inhalte
     * [Verfügbarkeit](./verfuegbarkeit.md) (vollständig)
       * [Datensicherung](./datensicherung.md) (insbesondere SOL+Prüfungsaufgaben)
@@ -47,13 +47,30 @@ gantt
 > - [ ] Allgemeine Infos
 > - [ ] Übersicht LF10b
 > - [ ] kurze Wiederholung: Serverdienste + Plattformen
-> - [ ] Ausführlich: Verfügbarkeit
+> - [ ] Ausführlich: **Verfügbarkeit**
 > - [ ] knappe Einordnung: andere Kundenanforderungen (Wirtschaftlichkeit, Sicherheit, Skalierbarkeit, Administrierbarkeit)
-> - [ ] Ausführlich: Datensicherung
+> - [ ] Ausführlich: **Datensicherung**
 > - [ ] HA erklären: Auswahl eines Projektes
-> - [ ] Einführung: Versionierung (git)
+> - [ ] Einführung: **Versionierung** (git)
 
 > - [ ] Zeit für Fragen/Wiederholung
-> - [ ] Ausführlich: Monitoring
+> - [ ] Ausführlich: **Monitoring**
 > - [ ] knapp: sonstige Kriterien für Konfigurationsplanung (Einrichtung, Aktualisierung -> Automatisierung)
-> - [ ] Planung des eigenen Projektes (Vorlage)
+> - [ ] **Planung des eigenen Projektes** [(Vorlage)](./planen.md)
+>   - [ ] Informieren über Lösungen
+> - optional:
+>   - Klausurvorbereitung
+>   - Beginn mit Implementierung/Integration
+
+#### Do 12.10. + Fr 13.10.
+
+> - [ ] **Klausur**
+> - [ ] Grundsystem aufsetzen (+ dokumentieren)
+> - [ ] **Backup** aufsetzen
+> - [ ] Backup testen (zurückspielen)
+
+> - [ ] **Monitoring** aufsetzen
+> - [ ] Erklären der Hausaufgabe: Wiederanlaufplan
+> - [ ] Überlegungen zu **Automatisierung**
+> - optional:
+>   - mit Hausaufgabe beginnen
