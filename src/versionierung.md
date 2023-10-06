@@ -22,3 +22,7 @@
 * Bazaar
 * Mercurial (hg)
 * **Git**
+
+## Wichtigste Operation
+
+siehe [git-Subcommands](https://johannesloetzsch.github.io/linux-praktikum/versionskontrolle.html)
