@@ -27,12 +27,33 @@ gantt
 ```
 
 ## Leistungskontrollen
-* Do 12.10. **doppelte Wertung**
-  * [Verfügbarkeit](./verfuegbarkeit.md) (vollständig)
-    * [Datensicherung](./datensicherung.md) (insbesondere SOL+Prüfungsaufgaben)
-    * [Versionierung](./versionierung.md) [(einschließlich wichtigster Operationen)](https://johannesloetzsch.github.io/linux-praktikum/versionskontrolle.html)
-    * [Monitoring (Ziele)](./monitoring.md)
+* Do 12.10. **Klausur: doppelte Wertung, 90min**
+  * Inhalte
+    * [Verfügbarkeit](./verfuegbarkeit.md) (vollständig)
+      * [Datensicherung](./datensicherung.md) (insbesondere SOL+Prüfungsaufgaben)
+      * [Versionierung](./versionierung.md) [(einschließlich wichtigster Operationen)](https://johannesloetzsch.github.io/linux-praktikum/versionskontrolle.html)
+      * [Monitoring (Ziele)](./monitoring.md)
+  * erlaubte Hilfsmittel
+    * Notizen: 1 A4-Blatt, einseitig beschrieben
+    * Taschenrechner (nicht kommunikationsfähig!), aber sollte nicht nötig sein
 * Mi 15.11.
   * Automatisierung
     * Administrierbarkeit
     * Skalierbarkeit
+
+## Checkliste
+### Mo 9.10. + Di 10.10.
+
+> - [ ] Allgemeine Infos
+> - [ ] Übersicht LF10b
+> - [ ] kurze Wiederholung: Serverdienste + Plattformen
+> - [ ] Ausführlich: Verfügbarkeit
+> - [ ] knappe Einordnung: andere Kundenanforderungen (Wirtschaftlichkeit, Sicherheit, Skalierbarkeit, Administrierbarkeit)
+> - [ ] Ausführlich: Datensicherung
+> - [ ] HA erklären: Auswahl eines Projektes
+> - [ ] Einführung: Versionierung (git)
+
+> - [ ] Zeit für Fragen/Wiederholung
+> - [ ] Ausführlich: Monitoring
+> - [ ] knapp: sonstige Kriterien für Konfigurationsplanung (Einrichtung, Aktualisierung -> Automatisierung)
+> - [ ] Planung des eigenen Projektes (Vorlage)
