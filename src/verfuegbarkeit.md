@@ -9,8 +9,6 @@ flowchart TB
   Redundanz --> Netzwerk --> Topologie
   Redundanz --> Services
   Services --> Architektur
-  Architektur --> LoadBalancer
-  Architektur --> Multicast
   Services --> Deployments --> GreenBlue
   Redundanz --> Daten
   Daten --> DistributedDB
@@ -42,10 +40,22 @@ flowchart TB
 
 ### Redundanz in Netzwerken
 
-* **LoadBalancing** vs. **Heartbeat**
+#### Redundanz von Services
 
+```mermaid
+flowchart TB
+  Redundanz --> LoadBalancing
+  LoadBalancing --> Multicast+ColdSpare
+  Redundanz --> ms[Master/Slave]
+  ms --> HotSpare+Heartbeat
+```
+
+z.B.
 * DNS
 * DHCP
+* Datenbanken
+* Webserver
+* Router
 
 > „Prüfungsvorbereitung Fachinformatiker Systemintegration“ 2.8.10. (Seite 104)
 
