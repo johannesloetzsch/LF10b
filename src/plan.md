@@ -50,8 +50,8 @@ gantt
 > - [x] Ausführlich: **Verfügbarkeit**
 > - [x] knappe Einordnung: andere Kundenanforderungen (Wirtschaftlichkeit, Sicherheit, Skalierbarkeit, Administrierbarkeit)
 > - [x] Ausführlich: **Datensicherung**
-> - [ ] HA erklären: Auswahl eines Projektes
-> - [ ] Einführung: **Versionierung** (git)
+> - [x] HA erklären: Auswahl eines Projektes
+> - [x] Einführung: **Versionierung** (git)
 
 > - [ ] Zeit für Fragen/Wiederholung
 > - [ ] Ausführlich: **Monitoring**
