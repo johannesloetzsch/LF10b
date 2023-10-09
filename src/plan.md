@@ -44,12 +44,12 @@ gantt
 ## Checkliste
 ### Mo 9.10. + Di 10.10.
 
-> - [ ] Allgemeine Infos
-> - [ ] Übersicht LF10b
-> - [ ] kurze Wiederholung: Serverdienste + Plattformen
-> - [ ] Ausführlich: **Verfügbarkeit**
-> - [ ] knappe Einordnung: andere Kundenanforderungen (Wirtschaftlichkeit, Sicherheit, Skalierbarkeit, Administrierbarkeit)
-> - [ ] Ausführlich: **Datensicherung**
+> - [x] Allgemeine Infos
+> - [x] Übersicht LF10b
+> - [x] kurze Wiederholung: Serverdienste + Plattformen
+> - [x] Ausführlich: **Verfügbarkeit**
+> - [x] knappe Einordnung: andere Kundenanforderungen (Wirtschaftlichkeit, Sicherheit, Skalierbarkeit, Administrierbarkeit)
+> - [x] Ausführlich: **Datensicherung**
 > - [ ] HA erklären: Auswahl eines Projektes
 > - [ ] Einführung: **Versionierung** (git)
 

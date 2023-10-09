@@ -2,8 +2,8 @@
 
 ```mermaid
 flowchart TB
-  Skallierbarkeit --> LodeBalancer
-  Skallierbarkeit --> Multicast
+  Skallierbarkeit --> LoadBalancer
+  Skallierbarkeit --> Anycast/Multicast
   Skallierbarkeit --> Cluster
 ```
 ## Einschränkung durch Kommunikation+SharedMemory

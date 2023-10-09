@@ -45,7 +45,7 @@ flowchart TB
 ```mermaid
 flowchart TB
   Redundanz --> LoadBalancing
-  LoadBalancing --> Multicast+ColdSpare
+  LoadBalancing --> Anycast+ColdSpare
   Redundanz --> ms[Master/Slave]
   ms --> HotSpare+Heartbeat
 ```
@@ -57,9 +57,9 @@ z.B.
 * Webserver
 * Router
 
-> „Prüfungsvorbereitung Fachinformatiker Systemintegration“ 2.8.10. (Seite 104)
-
 #### Redundante Router: first hop redundancy protocols
+
+> „Prüfungsvorbereitung Fachinformatiker Systemintegration“ 2.8.10. (Seite 104)
 
 ```mermaid
 flowchart TB
