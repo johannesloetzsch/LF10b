@@ -10,6 +10,7 @@
     * SMART-Daten
   * Kostenkontrolle
     * API-Nutzung
+  * Ablauf von SSL-Zertifikaten
 * Schnelle **Benachrichtigung** im Problemfall
   * Ausfall von Diensten
   * Ausfall von RAID-Platten

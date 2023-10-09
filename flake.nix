@@ -19,7 +19,7 @@
       shellHook = ''
         mdbook-mermaid install
         mdbook build
-        touch docs/.nojekyll
+        touch book/.nojekyll
         exit
       '';
     };

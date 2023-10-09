@@ -1,0 +1,36 @@
+Serverdienste
+bereitstellen
+Administrationsaufgaben
+automatisieren
+Kundenanforderung
+Verfügbarkeit
+Skalierbarkeit
+Administrierbarkeit
+Wirtschaftlichkeit
+Sicherheit
+Datensicherung
+kritische Zustände
+IHK
+Abschlussprüfung
+Wirtschaftlichkeit
+Redundanz
+RAID-Level
+first hop redundancy protocols
+MAC-Adresse
+USV
+SCM
+Schutzziele
+Cluster
+Backupstrategie
+Anschaffungskosten
+Recovery Time Objective
+Recovery Point Objective
+Disaster Recovery Plan
+Git
+Nix
+Ansible
+Puppet
+Chef
+Salt
+Bash
+Shell
