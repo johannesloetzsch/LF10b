@@ -3,7 +3,7 @@
 * [Ziele](./ziele.md)
   * [Plan](./plan.md)
   * [Literatur](./literatur.md)
-  * [CTF](./ctf/1/README.md)
+  * [CTF](./ctf/2/README.md)
 * [Informieren und Auswahl](./auswahl.md)
   * [Informieren](./informieren.md)
     * [Serverdienste](./serverdienste.md)
