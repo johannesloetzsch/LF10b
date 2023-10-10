@@ -53,10 +53,10 @@ gantt
 > - [x] HA erklären: Auswahl eines Projektes
 > - [x] Einführung: **Versionierung** (git)
 
-> - [ ] Zeit für Fragen/Wiederholung
-> - [ ] Ausführlich: **Monitoring**
+> - [x] Zeit für Fragen/Wiederholung
+> - [x] Ausführlich: **Monitoring**
 > - [ ] knapp: sonstige Kriterien für Konfigurationsplanung (Einrichtung, Aktualisierung -> Automatisierung)
-> - [ ] **Planung des eigenen Projektes** [(Vorlage)](./planen.md)
+> - [x] **Planung des eigenen Projektes** [(Vorlage)](./planen.md)
 >   - [ ] Informieren über Lösungen
 > - optional:
 >   - Klausurvorbereitung
