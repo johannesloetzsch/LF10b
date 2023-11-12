@@ -55,22 +55,27 @@ gantt
 
 > - [x] Zeit für Fragen/Wiederholung
 > - [x] Ausführlich: **Monitoring**
-> - [ ] knapp: sonstige Kriterien für Konfigurationsplanung (Einrichtung, Aktualisierung -> Automatisierung)
+> - [x] knapp: sonstige Kriterien für Konfigurationsplanung (Einrichtung, Aktualisierung -> Automatisierung)
 > - [x] **Planung des eigenen Projektes** [(Vorlage)](./planen.md)
->   - [ ] Informieren über Lösungen
+>   - [x] Informieren über Lösungen
 > - optional:
 >   - Klausurvorbereitung
 >   - Beginn mit Implementierung/Integration
 
 #### Do 12.10. + Fr 13.10.
 
-> - [ ] **Klausur**
-> - [ ] Grundsystem aufsetzen (+ dokumentieren)
-> - [ ] **Backup** aufsetzen
-> - [ ] Backup testen (zurückspielen)
+> - [x] **Klausur**
+> - [x] Grundsystem aufsetzen (+ dokumentieren)
+> - [x] **Backup** aufsetzen
 
-> - [ ] **Monitoring** aufsetzen
-> - [ ] Erklären der Hausaufgabe: Wiederanlaufplan
-> - [ ] Überlegungen zu **Automatisierung**
+> - [x] **Monitoring** aufsetzen
+> - [x] Erklären der Hausaufgabe: Wiederanlaufplan
+> - [x] Überlegungen zu **Automatisierung**
 > - optional:
 >   - mit Hausaufgabe beginnen
+
+#### Mo 13.11. + Mi 15.11.
+> - [ ] Vergleich verrschiedenen **Automatierungslösungen**
+> - [ ] Backup testen (zurückspielen)
+> - [ ] Verbesserung der Automatisierung
+> - [ ] Vorstellung der erreichten Lösungen

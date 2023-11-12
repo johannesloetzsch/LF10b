@@ -1,5 +1,11 @@
 # Automatisierung von Administrationsprozessen
 
+## Images
+
+* „Golden Image“
+
+## Skripte
+
 * [(Power)Shell-Skripte](https://johannesloetzsch.github.io/linux-praktikum/bash.html)
 
 ## Orchestration tools
