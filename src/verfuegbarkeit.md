@@ -38,6 +38,8 @@ flowchart TB
 
 > „Prüfungsvorbereitung Fachinformatiker Systemintegration“ 2.6.4. (Seite 66)
 
+> mehr Informationen zu RAID gibt es auch unter: https://www.thomas-krenn.com/de/wikiDE/index.php?title=RAID
+
 ### Redundanz in Netzwerken
 
 #### Redundanz von Services
@@ -63,8 +65,8 @@ z.B.
 
 ```mermaid
 flowchart TB
-  ReduntanteRouter --> IETF --> VRRP
-  ReduntanteRouter --> Cisco
+  RedundanteRouter --> IETF --> VRRP
+  RedundanteRouter --> Cisco
   Cisco --> GLBR
   Cisco --> HSRP
 ```
