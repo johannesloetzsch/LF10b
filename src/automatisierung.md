@@ -24,3 +24,5 @@
 
 * [Docker](https://www.docker.com/) / [Kubernetes](https://kubernetes.io/de/)
 * [Nix](https://nixos.org/)
+
+*[einfach verständliche Anleitungen](https://github.com/AntonyCanut/AntonyCanut/tree/main/English%20Version/For%20Teenagers)*
