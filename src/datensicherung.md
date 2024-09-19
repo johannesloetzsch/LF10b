@@ -12,35 +12,51 @@
 
 ### Datensicherungskonzept
 
+* **Recovery Time Objective** (RTO)
+* **Recovery Point Objective** (RPO)
+
 > *2023 Sommer SI Konzeption — Aufgabe 4c*
->
-> * **Recovery Time Objective** (RTO)
-> * **Recovery Point Objective** (RPO)
+
+### Backupstrategien
+
+* **Vollbackups**
+* **Differenzielle Backups**
+* **Inkrementelle Backups**
+
+> *2023 Sommer SI Konzeption — Aufgabe 4a*
 
 ### Disaster Recovery Plan
 
-> SOL Aufgabe vom 28.08.2023
+> SOL
 
-### Rechtliche Vorgabe von Aufbewahrungsfristen
 
 ## Lösungen
 
 ### Sicherungsmedien
 
+#### [WORM](https://de.wikipedia.org/wiki/WORM)
+
+> Was ist der Unterschied zwischen einem Backup und einem **Archiv**?
+
 ### Lagerorte
-
-### Backupstrategien
-
-* **Vollbackups**
-  * Images
-
-> *2023 Sommer SI Konzeption — Aufgabe 4a*
->
-> * **Inkrementelle Backups**
-> * **Differenzielle Backups**
 
 ### Tools
 
 > Welche Backuplösungen kennt ihr?
 >
 > Welche Feature haben sie?
+
+### Archivbit
+
+> *2022 Winter SI Konzeption — Aufgabe 3b*
+
+
+#### Sonstige Prüfungsaufgaben
+
+> *2021 Winter SI Konzeption*
+>
+> *2022 Sommer SI Konzeption*
+>
+> *2022 Winter SI Konzeption*
+>
+> *2023 Sommer SI Konzeption*

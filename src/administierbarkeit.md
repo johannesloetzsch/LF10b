@@ -2,12 +2,20 @@
 
 ```mermaid
 flowchart TB
-  Administrierbarkeit --> Automatisierung
-  Automatisierung --> Verfügbarkeit
-  Automatisierung --> Skalierbarkeit
-  Automatisierung --> Wirtschaftlichkeit
-  Automatisierung --> Sicherheit
+  Automatisierung --> Verfügbarkeit --> Administrierbarkeit
+  Automatisierung --> Skalierbarkeit --> Administrierbarkeit
+  Automatisierung --> Wirtschaftlichkeit --> Administrierbarkeit
+  Automatisierung --> Sicherheit --> Administrierbarkeit
+  Automatisierung --> Administrierbarkeit
+  Versionskontrolle --> Administrierbarkeit
+  Versionskontrolle --> ChangeRequestManagement --> Administrierbarkeit
+  Versionskontrolle --> Rollback --> Administrierbarkeit
+  Versionskontrolle --> Kooperation --> Administrierbarkeit
+  Versionskontrolle --> CICD --> Administrierbarkeit
 ```
+
+## [Automatisierung](./automatisierung.md)
+
 ## Vergleich verrschiedenen Automatierungslösungen
 
 |                                           | Image                             | Skripte                                             | Orchestrierungstools                | Docker                                                | NixOS                                | NixOS+Flake                  |
