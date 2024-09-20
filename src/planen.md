@@ -16,7 +16,7 @@
 
 ## Erstellt eine grobe Übersicht, wie die Architektur des Projekes aussehen sollen.
 
-*Auf welcher Platform soll euer Projekt laufen?*
+*Auf welcher Plattform soll euer Projekt laufen?*
 *Welche Hardware wird benötigt?*
 *Welches Betriebsystem werdet ihr nutzen?*
 
@@ -94,8 +94,6 @@ Beispielkonfiguration: https://github.com/T-i-M-M-i/deployment/tree/master/modul
 ## Plant einen groben Zeitplan für die Umsetzung.
 
 *Gebt Meilensteine an.*
-
-*Am Donnerstag und Freitag stehen jeweils ca. 6 (in Summe 12) Unterrichtseinheiten zur Verfügung.*
 
 ## Wer aus dem Team wird welche Aufgaben übernehmen?
 
