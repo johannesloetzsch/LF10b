@@ -8,7 +8,7 @@
 
 * [(Power)Shell-Skripte](https://johannesloetzsch.github.io/linux-praktikum/bash.html)
 
-## Orchestration tools
+## Konfigurationsmanagementsysteme / Orchestration tools
 
 * [Ansible](https://docs.ansible.com/)
 * [Puppet](https://www.puppet.com/)

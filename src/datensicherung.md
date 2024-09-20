@@ -40,13 +40,22 @@
 
 ### Lagerorte
 
+> Warum sind **Off-site-Backups** wichtig?
+
 ### Tools
 
 > Welche Backuplösungen kennt ihr?
 >
 > Welche Feature haben sie?
 
-### Archivbit
+### [Archivbit](https://de.wikipedia.org/wiki/Archivbit)
+
+* Kennzeichnet neue und modifizierte Dateien. Wird bei Schreiboperationen gesetzt.
+* Wird zurückgesetzt nach:
+  * Vollbackups
+  * Inkrementellen Backups
+* Wird nicht zurückgesetzt nach:
+  * Differenziellen Backups
 
 > *2022 Winter SI Konzeption — Aufgabe 3b*
 
