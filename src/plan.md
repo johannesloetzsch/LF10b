@@ -13,17 +13,16 @@ gantt
   [Theorie] Backup, Monitoring, Automatisierung   :2024-09-20, 4h
   SOL Auswahl & Vorbereitung Praxisprojekt :crit, milestone, 2024-09-20, 2h
  section 6h Mo 23.9.
+  Fragezeit für Leistungskontrolle                   :2024-09-23, 1h
   [Theorie] Administrierbarkeit, Versionierung       :2024-09-23, 1h
-  [Praxis] Git                  :2024-09-23, 2h
+  [Praxis] Git                  :2024-09-23, 1h
   [Praxis] Installation Grundsystem + Dokumentation  :2024-09-23, 3h
  section 6h Mi 25.9.
   [Praxis] Einrichtung Monitoring :2024-09-25, 6h
  section 3h Do 26.9.
-  Leistungskontrolle Plattformen & Dienste  :crit, milestone, 2024-09-26, 3h
- section 8h Fr 27.9.
-  [Theorie] Verfügbarkeit (technische Maßnahmen)  :2024-09-27, 2h
-  [Theorie] Skalierbarkeit      :2024-09-27, 1h
-  [Praxis] Einrichtung Backup   :2024-09-27, 4h
+  Leistungskontrolle Plattformen & Dienste  :crit, milestone, 2024-09-26, 2h
+  [Praxis] Einrichtung Backup   :2024-09-26, 1h
+ section 2h Fr 27.9.
   SOL Wiederanlaufplan          :crit, milestone, 2024-09-27, 2h
 ```
 
