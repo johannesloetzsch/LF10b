@@ -13,7 +13,7 @@
 ### Monitoring
 
 - [ ] Läuft
-- [ ] Ram-Auswastung wird überwacht
+- [ ] Ram-Auslastung wird überwacht
 - [ ] verbleibende freie Festplatenkapazität wird überwacht
 - [ ] Erfolgreiche automatische Erstellung von Backups wird überwacht
 - [ ] Im Fehlerfall werden Benachrichtigungen „versendet“
