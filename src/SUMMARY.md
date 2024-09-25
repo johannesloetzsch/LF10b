@@ -24,6 +24,7 @@
   * [Testverfahren](./testverfahren.md)
   * [**Monitoring**](./monitoring.md)
   * [**Maßnahmen bei kritischen Zuständen**](./kritische_zustaende.md)
+    * [Wiederanlaufplan](./wiederanlaufplan.md)
   * [Dokumentation von Ergebnissen](./dokumentation.md)
 * [**Automatisierung von Administrationsprozessen**](./automatisierung.md)
   * [Docker](./docker.md)
