@@ -1,5 +1,6 @@
 # Versionierung
 
+
 ## Backups
 
 ## Dateisystem-Snapshots
@@ -39,7 +40,7 @@ git diff
 git restore src/versionierung.md
 
 ## Eine Datei editieren, die Änderungen betrachten…
-nano src/versionierung.md 
+nano src/versionierung.md  ## man könnte auch vim benutzen
 git status
 git diff
 ## Die geänderte Datei für den nächsten Commit einplanen
