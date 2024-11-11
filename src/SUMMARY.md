@@ -6,7 +6,7 @@
 * [Informieren und Auswahl](./auswahl.md)
   * [Informieren](./informieren.md)
     * [Serverdienste](./serverdienste.md)
-    * [Plattformen](./plattformend.md)
+    * [Plattformen](./plattformen.md)
   * [Auswahl gemäß Kundenanforderungen](./auswahl.md)
     * [Wirtschaftlichkeit](./wirtschaftlichkeit.md)
     * [Sicherheit](./sicherheit.md)
