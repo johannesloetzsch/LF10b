@@ -53,6 +53,7 @@
 * [2] https://www.borgbackup.org
 * [3] https://restic.readthedocs.io/en/stable/070_encryption.html
 * [4] https://restic.readthedocs.io/en/v0.4.0/Design/
+* [5] https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/xcopy
 
 ### Monitoring
 

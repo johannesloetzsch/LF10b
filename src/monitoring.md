@@ -89,3 +89,4 @@ Wie werden Daten übermittelt?
 * [Nagios](https://www.nagios.org)
 * [Icinga](https://icinga.com)
 * [Grafana](https://grafana.com) + [Prometheus](https://prometheus.io) (+ [Loki](https://grafana.com/oss/loki))
+* [Webmin](https://webmin.com/)

@@ -1,0 +1,3 @@
+[submodule "src/examples/Automated_Debian"]
+	path = src/examples/Automated_Debian
+	url = git@github.com:WilderWilliGitHub/Automated_Debian.git

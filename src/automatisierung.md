@@ -26,3 +26,7 @@
 * [Nix](https://nixos.org/)
 
 *[einfach verständliche Anleitungen](https://github.com/AntonyCanut/AntonyCanut/tree/main/English%20Version/For%20Teenagers)*
+
+## Beispiele von Ergebnissen der Projektarbeiten in LF10b
+
+* [Debian-preseed + Ansible](https://github.com/WilderWilliGitHub/Automated_Debian)

@@ -1,1 +1,0 @@
-# Dokumentation von Ergebnissen
