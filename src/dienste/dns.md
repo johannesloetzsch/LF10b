@@ -16,6 +16,13 @@
 
 * ~~ersetzt~~ ergänzt `/etc/hosts` (bzw. `C:\Windows\System32\drivers\etc\hosts`)
 
+
+> **📝❗** FiSi AP2 Analyse Sommer 2023 Aufgabe 4
+
+
+> **📝❗** FiSi AP2 Analyse Winter 2021 Aufgabe 4b-c
+
+
 ## Inhaltsverzeichnis
 <!-- toc -->
 
@@ -75,6 +82,26 @@ Teil des Domänenbaums, für den ein Nameserver zuständig ist
 #### [Root-Server](https://de.wikipedia.org/wiki/Root-Nameserver), [Root Hint](https://www.iana.org/domains/root/servers)
 
 
+## Arten von Nameservern
+> **❓❗** Wie funktionieren die unterschiedlichen Arten von DNS-Servern?
+> * Warum ist es oft sinnvoll, einen vom ISP bereitgestellten Recursive Resolver und im eigenen Netz nur Forwarding Nameserver zu verwenden?  
+
+### Authoritative
+  * Zuständig für eine Zone
+  * (Hoffentlich) unter Kontrolle des Domaininhabers
+
+### Recursive
+  * Resolved Anfragen rekursiv (Schrittweise vom Root-Server bis zur abgefragten Subdomain)
+    * fragt für alle Zonen die jeweiligen Authoritativen Nameserver
+  * Wird von ISPs bereitgestellt. Kann im eigenen Netz betrieben werden.
+
+### Forwarding (Caching, Stub-Resolver)
+  * Macht selbst keine rekursive Namensauflösung
+  * Antworted aus dem Cache wenn Eintrag vorhanden und nicht älter als TTL
+  * Wenn Eintrag nicht im Cache vorhanden: Fragt anderen Recursive (oder Forwarding) NS
+  * Üblicherweise von Routern und Betriebsystemen bereitgestellt.
+
+
 ## [Resource Records](https://de.wikipedia.org/wiki/Resource_Record) und [RR-Typen](https://de.wikipedia.org/wiki/Resource_Record#RR-Typen)
 Einträge (Zeilen) von Zonendateien
 
@@ -101,27 +128,38 @@ Aufbau und Beispiele:
 | example.com.             | 3600  | IN      | SPF    | "v=spf1 mx -all" |
 
 
+> **💻❗** Wo ist auf Unix-Servern konfiguriert, wie die Namensauflösung stattfinden soll?
+> ```sh
+> cat /etc/resolv.conf /etc/hosts
+> ```
 
-## Arten von DNS-Servern
-> **❓❗** Wie funktionieren die unterschiedlichen Arten von DNS-Servern?
+> **💻❗** Wie kann man zum debuggen die IP-Adresse(n) zu einem Domainnamen auflösen?
+> ```sh
+> dig afbb.de
+> ```
+> [Alternativen](https://en.wikipedia.org/wiki/Dig_(command)#See_also)
 
-* Authoritative
-* Recursive
-* Forwarding (Stub-Resolver)
+> **💻** Wie können für eine Domain alle Records recursiv resolved werden?
+> ```sh
+> dig any afbb.de +trace
+> ```
 
 
 ## Sicherheit
 
 > [**💬❗**](https://de.wikipedia.org/wiki/Domain_Name_System#Sicherheit)
 Diskutieren Sie die Sicherheit von DNS im Bezug auf
-> * Verfügbarkeit
-> * Integrität
-> * Vertraulichkeit
-> * Anonymität
+> * Verfügbarkeit, Zensurresistenz
+> * Integrität, Authentizität
+> * Vertraulichkeit, Anonymität
 >
 > Welche Gefahren gehen jeweils aus von
-> * Server
-> * Clients/Dritten
+> * DNS-Server
+> * Clients
+> * ISP
+> * Dritten
+>   * Innerhalb der gleichen Broadcastdomain
+>   * Außerhalb des eigenen Netzes
 > 
 > Wie kann man sich schützen?
 

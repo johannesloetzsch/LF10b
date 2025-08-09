@@ -189,3 +189,5 @@ sequenceDiagram
 > ```
 
 > **💬** Welche Vor-/Nachteile haben die unterschiedlichen Adressvergabeverfahren?
+
+> **📝❗** FiSi AP2 Analyse Sommer 2022 Aufgabe 1
