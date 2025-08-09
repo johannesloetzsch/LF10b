@@ -11,12 +11,12 @@ gantt
  axisFormat %d.%m.
  section Mo 11.8.
   Einführung & Planung          :2025-08-11, 1h
-  Serverdienste                 :2025-08-11, 4h
+  Serverdienste (DHCP, DNS)     :2025-08-11, 4h
  section Do 14.8.
-  Serverdienste                 :2025-08-14, 5h
+  Serverdienste (NTP, LDAP, Mail) :2025-08-14, 5h
  section Fr 15.8.
   Plattformen, Auswahl          :2025-08-15, 4h
-  SOL Lernen für Klassenarbeit  :crit, 2025-08-15, 2h
+  SOL Lernen für Klassenarbeit (VoIP, USV, RAID)  :crit, 2025-08-15, 2h
  section Mo 18.8.
   Q&A, Wiederholung (USV, RAID) :2025-08-18, 6h
  section Mi 20.8.
@@ -70,6 +70,7 @@ gantt
       * [NTP](./dienste/ntp.md)
       * [LDAP](./dienste/ldap.md)
       * [Mail](./dienste/mail.md)
+      * (*[VoIP](./dienste/voip.md)*?)
     * [Plattformen](./plattformen.md)
     *  *[Auswahl gemäß Kundenanforderungen](./auswahl.md)*
        * [Skalierbarkeit](./skalierbarkeit.md)

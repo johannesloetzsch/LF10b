@@ -2,7 +2,7 @@
   description = "Unterrichtsnotizen";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-21.11";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
   };
 
   outputs = { self, nixpkgs, ... }:
@@ -15,7 +15,7 @@
     legacyPackages.${system} = { inherit pkgs; };
 
     devShells.${system}.ci = pkgs.mkShell {
-      nativeBuildInputs = with pkgs; [ mdbook mdbook-mermaid ];
+      nativeBuildInputs = with pkgs; [ mdbook mdbook-mermaid mdbook-toc ];
       shellHook = ''
         mdbook-mermaid install
         mdbook build
@@ -24,7 +24,7 @@
       '';
     };
     devShell.${system} = pkgs.mkShell {
-      nativeBuildInputs = with pkgs; [ mdbook mdbook-mermaid ];
+      nativeBuildInputs = with pkgs; [ mdbook mdbook-mermaid mdbook-toc ];
       shellHook = ''
         mdbook-mermaid install
         mdbook serve --port 3333 --open

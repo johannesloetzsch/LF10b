@@ -4,9 +4,13 @@ language = "de"
 multilingual = false
 src = "src"
 title = "LF10b: Serverdienste bereitstellen und Administrationsaufgaben automatisieren"
+
 [preprocessor]
 [preprocessor.mermaid]
 command = "mdbook-mermaid"
+[preprocessor.toc]
+command = "mdbook-toc"
+
 [output]
 [output.html]
 git-repository-url = "https://github.com/johannesloetzsch/LF10b/tree/main"

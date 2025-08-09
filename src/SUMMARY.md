@@ -10,6 +10,7 @@
   * [NTP](./dienste/ntp.md)
   * [LDAP](./dienste/ldap.md)
   * [Mail](./dienste/mail.md)
+  * [VoIP](./dienste/voip.md)
 
 * [Plattformen](./plattformen.md)
   * [Docker](./docker.md)
