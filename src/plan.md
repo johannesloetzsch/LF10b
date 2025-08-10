@@ -15,7 +15,7 @@ gantt
  section Do 14.8.
   Serverdienste (NTP, LDAP, Mail) :2025-08-14, 5h
  section Fr 15.8.
-  Plattformen, Auswahl          :2025-08-15, 4h
+  Plattformen (Cloud, Virtualiserung), Auswahl          :2025-08-15, 4h
   SOL Lernen für Klassenarbeit (VoIP, USV, RAID)  :crit, 2025-08-15, 2h
  section Mo 18.8.
   Q&A, Wiederholung (USV, RAID) :2025-08-18, 6h
@@ -72,6 +72,7 @@ gantt
       * [Mail](./dienste/mail.md)
       * (*[VoIP](./dienste/voip.md)*?)
     * [Plattformen](./plattformen.md)
+      * [Virtualisierung](./virtualisierung.md)
     *  *[Auswahl gemäß Kundenanforderungen](./auswahl.md)*
        * [Skalierbarkeit](./skalierbarkeit.md)
     * *([Verfügbarkeit](./verfuegbarkeit.md) ?)*
