@@ -65,14 +65,15 @@ gantt
   * erlaubte Hilfsmittel: Fact sheet (1 A4-Blatt, einseitig beschrieben)
   * Inhalte
     * [Serverdienste](./serverdienste.md)
-      * [DHCP](./dienste/dhcp.md)
-      * [DNS](./dienste/dns.md)
-      * [NTP](./dienste/ntp.md)
-      * [LDAP](./dienste/ldap.md)
-      * [Mail](./dienste/mail.md)
-      * (*[VoIP](./dienste/voip.md)*?)
+      * [DHCP](./dienste/dhcp.md): 4-Way-Handshake, Adressvergabeverfahren, Ausfallsicherheit, SLAAC
+      * [DNS](./dienste/dns.md): URI, FQDN, Arten von Nameservern, RR-Typen, DNSSEC
+      * [NTP](./dienste/ntp.md): Funktionsweise
+      * [LDAP](./dienste/ldap.md): 4 AD Hauptkomponenten
+      * [Mail](./dienste/mail.md): MUA/MTA/MDA, MX, SPF, DKIM, DMARK
+      * (*[VoIP](./dienste/voip.md)*?): Protokolle benennen
     * [Plattformen](./plattformen.md)
-      * [Virtualisierung](./virtualisierung.md)
+      * [Cloud](./plattformen.md): Charakeristiken, Vor-/Nachteile, Service Models, Liefermodelle
+      * [Virtualisierung](./virtualisierung.md): Hypervisor-Typen, Container-Arten
     *  *[Auswahl gemäß Kundenanforderungen](./auswahl.md)*
        * [Skalierbarkeit](./skalierbarkeit.md)
     * *([Verfügbarkeit](./verfuegbarkeit.md) ?)*

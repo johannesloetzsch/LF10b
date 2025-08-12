@@ -9,6 +9,13 @@
 
 > **💬**
 > Welche Kriterien für eine Auswahl gemäß Kundenanforderungen sollten bei der Entscheidung für eine Plattform berücksichtigt werden?
+>
+> **📝❗** FiSi AP2 Konzeption Sommer 2024 Aufgabe 1b
+>
+> **📝❗** FiSi AP2 Konzeption Winter 2024 Aufgabe 1b
+
+
+<!-- toc -->
 
 
 > **💬❗**
@@ -22,14 +29,17 @@
 > Inwieweit sollten offene Standarts bei der Auswahl einer Plattform bzw. eines Anbieters berücksichtigt werden?
 
 
-<!-- toc -->
-
-
 ## [Cloud](https://de.wikipedia.org/wiki/Cloud_Computing)
 
 > **📝❗** FiSi AP2 Analyse Winter 2021 Aufgabe 1
+>
 > **📝❗** FiSi AP2 Analyse Winter 2022 Aufgabe 1a
+>
 > **📝❗** FiSi AP2 Analyse Winter 2023 Aufgabe 1a
+>
+> **📝❗** FiSi AP2 Konzeption Sommer 2024 Aufgabe 1
+>
+> **📝❗** FiSi AP2 Konzeption Winter 2024 Aufgabe 1
 
 
 ### Charakeristiken von Cloud-Computing
@@ -98,6 +108,10 @@ z.B. virtuelle Server, „AWS Elastic Compute Cloud2“ (EC2)
 
 
 > **💡💬** Vortrag: [„Sollen wir in die Cloud gehen?“](http://ptrace.fefe.de/cloud/#1)
+>
+> **📝❗** FiSi AP2 Konzeption Sommer 2024 Aufgabe 1a
+>
+> **📝❗** FiSi AP2 Konzeption Winter 2024 Aufgabe 1a
 
 ## [On-Premises](https://de.wikipedia.org/wiki/On-Premises)
 => „in den eigenen Räumlichkeiten“

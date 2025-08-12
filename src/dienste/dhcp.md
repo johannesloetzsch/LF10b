@@ -117,7 +117,7 @@ sequenceDiagram
 * Bei Ausfall übernimmt ein Passive den Scope des ausgefallenen Servers
 
 
-## Sicherheit
+## [Sicherheit](https://de.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol#Sicherheit)
 
 > [**💬**](https://de.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol#Sicherheit)
 Diskutieren Sie die Sicherheit von DHCP im Bezug auf
@@ -131,16 +131,32 @@ Diskutieren Sie die Sicherheit von DHCP im Bezug auf
 > * Clients
 > * Dritten
 > 
-> Wie kann man sich schützen?
+> Wie kann man sich schützen? Welche Grenzen haben diese Maßnahmen?
+
+* [DHCP Starvation Attack](https://de.wikipedia.org/wiki/DHCP_Starvation_Attack)
+  * [Denial-of-Service-Angriff (DoS)](https://de.wikipedia.org/wiki/Denial_of_Service)
+* [Rogue DHCP](https://de.wikipedia.org/wiki/Rogue_DHCP)
+  * [Spoofing](https://de.wikipedia.org/wiki/Spoofing)
+  * [Man-in-the-Middle-Angriff (MITM)](https://de.wikipedia.org/wiki/Man-in-the-Middle-Angriff)
+
+### Maßnahmen
+* [DHCP-Snooping](https://de.wikipedia.org/wiki/DHCP-Snooping)
+* [Authentifizierung per IEEE 802.1X](https://de.wikipedia.org/wiki/IEEE_802.1X)
+* [Security Awareness => **Un**sicherheitsbewustsein](https://de.wikipedia.org/wiki/Security_Awareness)
 
 
-## [SLAAC](https://de.wikipedia.org/wiki/IPv6#Autokonfiguration) (DHCPv6)
+## [SLAAC](https://de.wikipedia.org/wiki/IPv6#Autokonfiguration) und [DHCPv6](https://de.wikipedia.org/wiki/DHCPv6)
 „**S**tate**l**ess **A**ddress **A**uto **C**onfiguration“
 
 *RFC 4862 + RFC 8106*
 
 > [**💬**](https://de.wikipedia.org/wiki/IPv6)
 > Was wissen wir zu IPv6?
+
+> Wiederholung: IPv6-Subnetze
+>
+> **📝❗** FiSi AP2 Analyse Sommer 2024 Aufgabe 2e
+
 
 > [**❓❗**](https://de.wikipedia.org/wiki/IPv6#Link-Local-Unicast-Adressen)
 > Was sind Link-Local-Adressen?
@@ -187,6 +203,14 @@ sequenceDiagram
 > ```sh
 > ip a | grep --color -e state -e ether -e inet
 > ```
+
+
+### [DHCPv6](https://de.wikipedia.org/wiki/DHCPv6)
+
+> [**💬**]((https://de.wikipedia.org/wiki/IPv6#Verh%C3%A4ltnis_von_Autokonfiguration_zu_DHCPv6) "DHCPv6 oder NDP-Erweiterungen werden benötigt um zusätzliche Konfigurationsdaten an Clients zu übertragen") In welchem Verhältnis stehen [SLAAC und DHCPv6](https://de.wikipedia.org/wiki/IPv6#Verh%C3%A4ltnis_von_Autokonfiguration_zu_DHCPv6)?
+>
+> **📝❗** FiSi AP2 Analyse Sommer 2024 Aufgabe 1
+
 
 > **💬** Welche Vor-/Nachteile haben die unterschiedlichen Adressvergabeverfahren?
 

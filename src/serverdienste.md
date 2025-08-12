@@ -27,7 +27,7 @@
 |  **53**     | **DNS**      |
 |  67,68  UDP | DHCP (BOOTP) |
 |  **80** TCP | **HTTP**     |
-|   123   UDP | NTP          |
+|   123   UDP, (TCP) | NTP   |
 |   110   TCP | POP3         |
 |   143   TCP | IMAP         |
 |   389       | LDAP         |

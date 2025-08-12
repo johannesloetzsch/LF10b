@@ -102,6 +102,13 @@ Teil des Domänenbaums, für den ein Nameserver zuständig ist
   * Üblicherweise von Routern und Betriebsystemen bereitgestellt.
 
 
+> **❓❗** Was muss beachtet werden, wenn lokale Server mittels DNS genutzt werden?
+
+Die Zonen von öffentlichen Domains sind über recursive Abfrage ausgehend von den Root-Servern erreichbar.
+Für lokale Netze können Authoritative Nameserver betrieben werden, die nicht öffentlich erreichbar sind. Damit Clients diese nutzen können, müssen diese die Nutzung des lokalen DNS-Servers konfigurieren.
+> **📝❗** FiSi AP2 Analyse Sommer 2024 Aufgabe 2b
+
+
 ## [Resource Records](https://de.wikipedia.org/wiki/Resource_Record) und [RR-Typen](https://de.wikipedia.org/wiki/Resource_Record#RR-Typen)
 Einträge (Zeilen) von Zonendateien
 
@@ -126,7 +133,7 @@ Aufbau und Beispiele:
 | _ldap._tcp.example.com.  | 3600  | IN      | SRV    | 10 0 389 ldap01.example.com. |
 | example.com.             | 1800  | IN      | MX     | mailserver.example.com. |
 | example.com.             | 3600  | IN      | SPF    | "v=spf1 mx -all" |
-
+| mail._domainkey.example.com | 6000 | IN | TXT | v=DKIM1; p=76E629F05F70 9EF665853333 EEC3F5ADE69A 2362BECE4065 8267AB2FC3CB 6CBE	|
 
 > **💻❗** Wo ist auf Unix-Servern konfiguriert, wie die Namensauflösung stattfinden soll?
 > ```sh
@@ -137,7 +144,10 @@ Aufbau und Beispiele:
 > ```sh
 > dig afbb.de
 > ```
-> [Alternativen](https://en.wikipedia.org/wiki/Dig_(command)#See_also)
+>
+> [`nslookup`](https://de.wikipedia.org/wiki/Nslookup), [`dig`, Alternativen](https://en.wikipedia.org/wiki/Dig_(command)#See_also)
+>
+> **📝❗** FiSi AP2 Analyse Sommer 2024 Aufgabe 3ab
 
 > **💻** Wie können für eine Domain alle Records recursiv resolved werden?
 > ```sh
@@ -161,7 +171,7 @@ Diskutieren Sie die Sicherheit von DNS im Bezug auf
 >   * Innerhalb der gleichen Broadcastdomain
 >   * Außerhalb des eigenen Netzes
 > 
-> Wie kann man sich schützen?
+> Wie kann man sich schützen? Welche Grenzen haben diese Maßnahmen?
 
 
 ### [DNS-Spoofing](https://de.wikipedia.org/wiki/DNS-Spoofing#DNS-Cache-Poisoning)
@@ -176,8 +186,12 @@ Diskutieren Sie die Sicherheit von DNS im Bezug auf
   * DNS-Server schreibt die manipulierten Daten in den Cache und liefern diese bis zur TTL bei künftigen Anfragen aus
 
 
-### [DNSSEC](https://de.wikipedia.org/wiki/Domain_Name_System_Security_Extensions#Funktionsweise)
-* Authentizität wird mittels digitalen Signaturen abgesichert
+### Maßnahmen
+
+#### [DNSSEC](https://de.wikipedia.org/wiki/Domain_Name_System_Security_Extensions#Funktionsweise)
+**D**omain **N**ame **S**ystem **S**ecurity **E**xtensions
+
+* **Authentizität** wird mittels digitalen Signaturen abgesichert
   * `DNSKEY` Resource Record beinhaltet öffentlichen Schlüssel der Zone
   * `RRSIG` Resource Record enthält Signatur für zugehörigen DNS-Record
   * Eine [**Chain of Trust**](https://de.wikipedia.org/wiki/Domain_Name_System_Security_Extensions#Chain_of_Trust) wird aufgebaut, indem in der Parent-Zone
@@ -185,8 +199,11 @@ Diskutieren Sie die Sicherheit von DNS im Bezug auf
     * die Parent-Zone selbst signiert wird
     * der oberste Schlüssel der Kette muss dem Client vorab bekannt sein [Vertrauensanker](https://de.wikipedia.org/wiki/Vertrauensanker)
 
+> **❗** Vertraulichkeit ist bei DNSSEC nicht vorgesehen.
+> DNS-Daten sind unverschlüsselt!
 
-### [DNS over TLS (DoT)](https://de.wikipedia.org/wiki/DNS_over_TLS)
 
-### [DNS over HTTPS (DoH)](https://de.wikipedia.org/wiki/DNS_over_HTTPS)
+#### [DNS over TLS (DoT)](https://de.wikipedia.org/wiki/DNS_over_TLS)
+
+#### [DNS over HTTPS (DoH)](https://de.wikipedia.org/wiki/DNS_over_HTTPS)
 * Anwendung fragt DNS-Server direkt anstatt über das Betriebssystem
