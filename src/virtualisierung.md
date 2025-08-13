@@ -2,6 +2,10 @@
 
 > **📝❗** FiSi AP2 Analyse Winter 2023 Aufgabe 1b
 
+<!-- toc -->
+
+
+## Einführung
 
 Virtualisierung erlaubt mehrere Systeme auf des selben physischen Host-Hardware gleichzeitig auszuführen. Aus Sicht des Gast-Systeme verhält sich die virtualisierte Umgebung gleich oder zumindest ähnlich wie die physische Hardware.
 
@@ -13,6 +17,8 @@ Moderne Prozessoren verfügen über geeignete Erweiterungen um Virtualisierung i
 
 Für viele Anwendungsfälle ist eine Isolation von Systemen erwünscht, jedoch keine Virtualisierung von vollständigen Maschinen notwendig.Für diesen Fall können leichtgewichtige **Virtual Environments** (VE) verwendet werden, deren Funktionalität direkt vom Betriebssystem ohne zusätzlichen Hypervisor bereitgestellt wird. Historisch sind [Jails](https://en.wikipedia.org/wiki/FreeBSD_jail) wichtig. Heute sind Container nach dem [**OCI-Standart**](https://de.wikipedia.org/wiki/Open_Container_Initiative), insbesondere [**Docker**](https://de.wikipedia.org/wiki/Docker_(Software)) sehr verbreitet.
 
+
+## Hypervisor-Typen und Container-Arten
 
 ```mermaid
 flowchart TB
@@ -37,3 +43,30 @@ flowchart TB
 | Einsatzgebiete | **dedizierter Virtualisierung**sserver | **VMs auf bestehendem OS** ermöglichen | **leichtgewichtige** VEs für viele **parallele Linux-Systeme** | leichtgewichtige VEs für **isolierte Anwendungen** |
 
 > **📝❗** FiSi AP2 Analyse Sommer 2022 Aufgabe 4
+
+
+## Einsatzzwecke
+
+[![](https://technofaq.org/wp-content/uploads/2015/06/virtualization.jpg)](https://technofaq.org/posts/2015/06/reasons-why-switching-to-virtualization-is-easy-and-effective/)
+
+* **Isolation**
+  * => **Administrierbarkeit** durch **Modularisierung** ([divide and conquer](https://de.wikipedia.org/wiki/Teile-und-herrsche-Verfahren))
+  * Sicherheit (*💬)
+* **Hardware-Einsparung** (bessere **Auslastung** der Server durch dynamische Lastverteilung)
+  * **Wirtschaftlichkeit**
+  * [**Green-IT**](https://de.wikipedia.org/wiki/Green_IT)
+* [**Migration**](https://en.wikipedia.org/wiki/Migration_(virtualization)) / [**Live migration**](https://en.wikipedia.org/wiki/Live_migration)
+  * Während geplanter Wartung
+  * Wenn mehr Ressourcen benötigt werden => dynamische **Skalierung**
+  * [**Failover**](https://de.wikipedia.org/wiki/Failover) bei Ausfällen
+* günstiger Betrieb von Diensten im [**Cluster**](https://de.wikipedia.org/wiki/Rechnerverbund)
+  * Verfügbarkeit durch Redundanz
+  * Skalierbarkeit
+
+### [Potentielle Nachteile](https://de.wikipedia.org/wiki/Virtuelle_Maschine#Vor-_und_Nachteile_des_Einsatzes_systembasierter_virtueller_Maschinen)
+
+* Effizienzverlust durch Virtualisierungs**overhead**
+* Lastspitzen in einer VM können je nach **Ressourcentrennung** Einfluss auf andere VMs haben
+* Herausforderung für Datenschutz/-sicherheit => [**Sandbox escape**](https://en.wikipedia.org/wiki/Virtual_machine_escape)
+* Fragen bezüglich Lizenzierung
+* Zusatzaufwand (wenn kein geeignetes Automatiserungskonzept vorhanden)

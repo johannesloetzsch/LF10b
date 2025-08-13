@@ -74,8 +74,8 @@ gantt
     * [Plattformen](./plattformen.md)
       * [Cloud](./plattformen.md): Charakeristiken, Vor-/Nachteile, Service Models, Liefermodelle
       * [Virtualisierung](./virtualisierung.md): Hypervisor-Typen, Container-Arten
-    *  *[Auswahl gemäß Kundenanforderungen](./auswahl.md)*
-       * [Skalierbarkeit](./skalierbarkeit.md)
+    *  (*[Auswahl gemäß Kundenanforderungen](./auswahl.md)*)
+       * [Skalierbarkeit](./skalierbarkeit.md#kurz-und-knapp): scale up / scale out
     * *([Verfügbarkeit](./verfuegbarkeit.md) ?)*
       * (*[RAID](./raid.md)*?)
       * (*[USV](./usv.md)*?)

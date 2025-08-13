@@ -1,5 +1,12 @@
 # Mail
-([seit 1965/1968](https://de.wikipedia.org/wiki/E-Mail#Geschichte))
+([historisch gewachsen](https://de.wikipedia.org/wiki/Technische_Schulden) seit [1965/1968/1971](https://de.wikipedia.org/wiki/E-Mail#Geschichte))
+
+> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/D4a_robotron.jpg" style="height: 200px"/>
+> <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/D4A-Lehmann-TU-Dresden.jpg" style="height: 200px"/>
+> 
+> [D4a — Computer der TU Dresden](https://de.wikipedia.org/wiki/D4a) zu dieser Zeit:
+> <br/>2000 Grundoperationen/Sekunde; 16,5 KByte Speicher
+
 
 [![](https://upload.wikimedia.org/wikipedia/commons/7/72/Wie_E-Mail_funktioniert.svg)](https://de.wikipedia.org/wiki/E-Mail#Zustellung_einer_E-Mail:_beteiligte_Server_und_Protokolle)
 
@@ -7,6 +14,8 @@
 > **📝❗** FiSi AP2 Analyse Sommer 2022 Aufgabe 4
 >
 > **📝❗** FiSi AP2 Analyse Sommer 2023 Aufgabe 4
+
+<!-- toc -->
 
 
 ## MUA, MTA/MDA
@@ -175,10 +184,10 @@ Web-of-Trust ([PGP](https://de.wikipedia.org/wiki/OpenPGP)) vs. PKI ([X.509](htt
 > **💻❗** MUA „sicher“ konfigurieren
 
 
-#### [<img alt="pEP logo" src="https://upload.wikimedia.org/wikipedia/commons/a/a0/P%E2%89%A1p_logo.svg" style="height: 1em"/>](https://de.wikipedia.org/wiki/Pretty_Easy_privacy)
+#### [<img alt="pEp logo" src="https://upload.wikimedia.org/wikipedia/commons/a/a0/P%E2%89%A1p_logo.svg" style="height: 1em; vertical-align: text-bottom"/>](https://de.wikipedia.org/wiki/Pretty_Easy_privacy) pEp
 
 **p**retty **E**asy **p**rivacy
 
-#### [<img alt="CAcert logo" src="https://upload.wikimedia.org/wikipedia/de/f/f4/Logo_CAcert.svg" style="height: 1em"/>](https://de.wikipedia.org/wiki/CAcert)
+#### [<img alt="CAcert logo" src="https://upload.wikimedia.org/wikipedia/de/f/f4/Logo_CAcert.svg" style="height: 1em"/>](https://de.wikipedia.org/wiki/CAcert) CAcert
 
 => nichtkommerzielle **C**ertification **A**uthority
