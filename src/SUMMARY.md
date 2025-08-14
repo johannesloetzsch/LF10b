@@ -19,10 +19,9 @@
 
 * [Auswahl gemäß Kundenanforderungen](./auswahl.md)
   * [Wirtschaftlichkeit](./wirtschaftlichkeit.md)
-  * [Sicherheit](./sicherheit.md)
-  * [Verfügbarkeit](./verfuegbarkeit.md)
   * [Skalierbarkeit](./skalierbarkeit.md)
   * [Administrierbarkeit](./administierbarkeit.md)
+  * [Sicherheit](./sicherheit.md)
 
 * [Verfügbarkeit](./verfuegbarkeit.md)
   * [USV](./usv.md)

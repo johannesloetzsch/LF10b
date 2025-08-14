@@ -17,7 +17,7 @@
 
 ## „4-Way-Handshake“
 
-([Initiale Adresszuweisung](https://de.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol#Initiale_Adresszuweisung_(Lease/Vergabe)))
+([Initiale Adresszuweisung](https://de.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol#Initiale_Adresszuweisung_(Lease/Vergabe))) / „DORA“
 
 > [**💬**](https://de.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol#Initiale_Adresszuweisung_(Lease/Vergabe))
 > Wie bekommt ein neues Gerät im Netzwerk seine Konfiguration (vom DHCP-Server)?

@@ -32,3 +32,7 @@ flowchart TB
 | Kombinierbarkeit mehrerer Konfigurationen                                    | nein                                            | (ja, aber fehleranfällig)                           | **(ja)**                            | (ja, **Baum** von Konfigurationen)                    | **ja**                               | **ja**                       |
 | sauberes Deinstallieren                                                      | nein (nur durch vollständige Wiederherstellung) | aufwändig/fehleranfällig                            | (fehleranfällig)                    | **ja**                                                | **ja**                               | **ja**                       |
 | Reproduzierbarkeit                                                           | nur auf Stand vorhandener Images                | nein (sehr schwer+fehleranfällig zu implementieren) | (nein)                              | schwer Seiteneffekte zu vermeiden                     | (**ja**) wenn Inputs gelockt sind    | **ja**                       |
+
+## [Mobile-Device-Management (MDM)](https://de.wikipedia.org/wiki/Mobile-Device-Management)
+
+> **📝❗** FiSi AP2 Analyse Sommer 2025 Aufgabe 3

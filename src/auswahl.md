@@ -4,7 +4,14 @@
 
 ```mermaid
 flowchart TB
-  Kriterien --> Anbieterabhängig
   Kriterien --> Kundenabhängig
+  Kundenabhängig --> Anforderungsanalyse
+  Kriterien --> Anbieterabhängig
+  Anbieterabhängig --> Machbarkeitsanalyse
   Kriterien --> Problemabhängig
+  Problemabhängig --> Problemanalyse
 ```
+
+=> Lastenheft
+
+=> Pflichtenheft

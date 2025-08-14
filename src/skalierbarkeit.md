@@ -8,7 +8,7 @@
 <br/>(bei scale up)…
 
 => Warum nicht einfach „zweimal das einfache“ nutzen?
-<br/>=> **scale out!**
+<br/>=> **scale out!** => [commercial off-the-shelf](https://de.wikipedia.org/wiki/Commercial_off-the-shelf)
 
 
 <!-- toc -->
