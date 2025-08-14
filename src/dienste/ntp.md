@@ -3,6 +3,19 @@
 
 *RFC 5905*
 
+> **💬💻** Wie spät ist es?
+>
+> Und welcher Tag ist heute eigentlich???
+>
+>```sh
+> man date
+> 
+> watch -n.1 'date +%s; date --iso-8601=ns --utc; date --iso-8601=ns; date +"%d.%m.%Y %H:%M:%S,%N %Z (%A)"'
+>```
+>
+> 💬 Warum brauchen wir eine „gemeinsame“ Zeit? Was bedeutet das?
+
+
 ## Hierarchie nach „Stratum“
 
 ![](https://upload.wikimedia.org/wikipedia/commons/c/c9/Network_Time_Protocol_servers_and_clients.svg)

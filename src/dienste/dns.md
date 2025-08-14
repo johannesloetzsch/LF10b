@@ -86,6 +86,59 @@ Teil des Domänenbaums, für den ein Nameserver zuständig ist
 > **❓❗** Wie funktionieren die unterschiedlichen Arten von DNS-Servern?
 > * Warum ist es oft sinnvoll, einen vom ISP bereitgestellten Recursive Resolver und im eigenen Netz nur Forwarding Nameserver zu verwenden?  
 
+Beispiel: Was ist alles nötig, um eine IP für `de.wikipedia.org.` zu erhalten?
+```mermaid
+flowchart LR
+  classDef forwarding fill:#ccf
+  classDef recursive fill:#afa
+  classDef authoritative fill:#fc9
+  subgraph Client[localhost]
+   client_app{{Anwendung}}
+   client_os{{Betriebssystem}}
+   client_hosts["/etc/hosts"]
+   client_ns([Stub Resolver]):::forwarding
+   client_conf["/etc/resolv.conf\nnameserver 192.168.0.1"]
+   client_cache[Cache]
+   client_app -- 1a --> client_os
+   client_os -- 1b --> client_hosts
+   client_os -- 1c --> client_ns
+   client_ns -- 1d --> client_cache
+   client_ns -- 1e --> client_conf
+  end
+  subgraph Router[router.local\n192.168.0.1]
+   router_ns([Forwarding NS]):::forwarding
+   router_cache[Cache]
+   router_ns -- 3 --> router_cache
+  end
+  subgraph ISP[ns.isp.com]
+    isp_ns((Recursive NS)):::recursive
+    isp_cache[Cache]
+    isp_root_hint[Root Hint\na.root-servers.net]
+    isp_ns -- 5,7,9 --> isp_cache
+    isp_ns -- 6a --> isp_root_hint
+  end
+  root[(a.root-servers.net\nNS .\norg.                    2756    IN      NS      a0.org.afilias-nst.info.)]:::authoritative
+  org[(a0.org.afilias-nst.info\nNS org.\nwikipedia.org.          12831   IN      NS      ns0.wikimedia.org.)]:::authoritative
+  wikipedia[(ns0.wikimedia.org\nNS wikipedia.org.\nde.wikipedia.org.       21434   IN      CNAME   dyna.wikimedia.org.\ndyna.wikimedia.org.     180     IN      A       185.15.59.224)]:::authoritative
+  client_ns -- 2 --> router_ns
+  router_ns -- 4 --> isp_ns
+  isp_ns -- 6b --> root
+  isp_ns -- 8 --> org
+  isp_ns -- 10 --> wikipedia
+```
+
+```
+6b: Welche Nameserver sind für die Zone `org.` zuständig?
+    org.                    2756    IN      NS      a0.org.afilias-nst.info.
+
+ 8: Welche Nameserver sind für die Zone `wikipedia.org.` zuständig?
+    wikipedia.org.          12831   IN      NS      ns0.wikimedia.org.
+
+10: Unter welcher IP ist der Host `de.wikipedia.org.` erreichbar?
+    de.wikipedia.org.       21434   IN      CNAME   dyna.wikimedia.org.
+    dyna.wikimedia.org.     180     IN      A       185.15.59.224
+```
+
 ### Authoritative
   * Zuständig für eine Zone
   * (Hoffentlich) unter Kontrolle des Domaininhabers
