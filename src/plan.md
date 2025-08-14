@@ -13,17 +13,17 @@ gantt
   Einführung & Planung          :2025-08-11, 1h
   Serverdienste (DHCP, DNS)     :2025-08-11, 4h
  section Do 14.8.
-  Serverdienste (NTP, LDAP, Mail) :2025-08-14, 5h
+  Serverdienste (NTP, LDAP, Mail, VoIP) :2025-08-14, 5h
  section Fr 15.8.
-  Plattformen (Cloud, Virtualiserung), Auswahl          :2025-08-15, 4h
-  SOL Lernen für Klassenarbeit (VoIP, USV, RAID)  :crit, 2025-08-15, 2h
+  Plattformen (Cloud, Virtualiserung), Auswahl    :2025-08-15, 4h
+  SOL Lernen für Klassenarbeit (+ Wiederholung LF9)  :crit, 2025-08-15, 2h
  section Mo 18.8.
-  Q&A, Wiederholung (USV, RAID) :2025-08-18, 6h
+  Q&A, Wiederholung             :2025-08-18, 6h
  section Mi 20.8.
   Klassenarbeit                 :crit, milestone, 2025-08-20, 2h
-  Verfügbarkeit (Monitoring)    :2025-08-20, 3h
+  Verfügbarkeit von Daten (Backup, RAID)  :2025-08-20, 3h
  section Fr 22.8.
-  Verfügbarkeit (Backup, Automatisierung) :2025-08-22, 4h
+  Verfügbarkeit (TOM, Automatisierung, Monitoring) :2025-08-22, 4h
   SOL Wiederanlaufplan          :crit, milestone, 2025-08-22, 2h
 ```
 
@@ -33,7 +33,8 @@ gantt
  dateFormat YYYY-MM-DD
  axisFormat %d.%m.
  section Mo 22.9.
-  Wiederholung Verfügbarkeit    :2025-09-22, 6h
+  Redundanz von Infrastruktur (USV, Link Aggregation, FHRP) :2025-09-22, 3h
+  Wiederholung Verfügbarkeit, Q&A  :2025-09-22, 3h
  section Di 23.9.
   Klassenarbeit                 :crit, milestone, 2025-09-23, 2h
   Vorstellung Projektpläne      :crit, 2025-09-23, 6h
@@ -70,15 +71,13 @@ gantt
       * [NTP](./dienste/ntp.md): Funktionsweise
       * [LDAP](./dienste/ldap.md): 4 AD Hauptkomponenten
       * [Mail](./dienste/mail.md): MUA/MTA/MDA, MX, SPF, DKIM, DMARK
-      * (*[VoIP](./dienste/voip.md)*?): Protokolle benennen
+      * [VoIP](./dienste/voip.md): Protokolle benennen
     * [Plattformen](./plattformen.md)
       * [Cloud](./plattformen.md): Charakeristiken, Vor-/Nachteile, Service Models, Liefermodelle
       * [Virtualisierung](./virtualisierung.md): Hypervisor-Typen, Container-Arten
     *  (*[Auswahl gemäß Kundenanforderungen](./auswahl.md)*)
        * [Skalierbarkeit](./skalierbarkeit.md#kurz-und-knapp): scale up / scale out
-    * *([Verfügbarkeit](./verfuegbarkeit.md) ?)*
-      * (*[RAID](./raid.md)*?)
-      * (*[USV](./usv.md)*?)
+    * *([Verfügbarkeit](./verfuegbarkeit.md))*: Überblick Maßnahmen
 
 * **Klassenarbeit Di 23.9.2025** (doppelte Wertung, 90min, handschriftlich)
   * erlaubte Hilfsmittel: Fact sheet (1 A4-Blatt, einseitig beschrieben)

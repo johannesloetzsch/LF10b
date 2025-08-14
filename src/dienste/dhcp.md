@@ -17,7 +17,7 @@
 
 ## „4-Way-Handshake“
 
-([Initiale Adresszuweisung](https://de.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol#Initiale_Adresszuweisung_(Lease/Vergabe)))
+([Initiale Adresszuweisung](https://de.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol#Initiale_Adresszuweisung_(Lease/Vergabe))) / „DORA“
 
 > [**💬**](https://de.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol#Initiale_Adresszuweisung_(Lease/Vergabe))
 > Wie bekommt ein neues Gerät im Netzwerk seine Konfiguration (vom DHCP-Server)?
@@ -172,11 +172,11 @@ Diskutieren Sie die Sicherheit von DHCP im Bezug auf
 sequenceDiagram
     participant Client
     participant Netz
-    participant Server
+    participant Router
     Client->>Client: 1. Link local Address
     Client->>Netz: 2. Duplicate Address Detection
-    Client->>Server: 3. Router Solicitation
-    Server->>Client: 4. Router Advertisement
+    Client->>Router: 3. Router Solicitation
+    Router->>Client: 4. Router Advertisement
     Note right of Client: Global Unicast Prefix,<br/>Gateway Address,<br/>DNS Server Address
     Client->>Client: 5. Global Unicast Address
     Client->>Netz: 6. Duplicate Address Detection

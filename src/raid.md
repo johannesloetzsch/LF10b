@@ -9,4 +9,4 @@
 
 > „Prüfungsvorbereitung Fachinformatiker Systemintegration“ 2.6.4. (Seite 66)
 
-> mehr Informationen zu RAID gibt es auch unter: https://www.thomas-krenn.com/de/wikiDE/index.php?title=RAID
+> [Mehr Informationen zu RAID](https://www.thomas-krenn.com/de/wikiDE/index.php?title=RAID)
