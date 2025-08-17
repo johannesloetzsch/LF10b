@@ -89,7 +89,7 @@ sequenceDiagram
 ### [Dynamisch (Dynamic Allocation)](https://de.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol#Dynamische_Zuordnung)
 * IP wird für **Lease-Time** („Leihdauer“) vergeben
 
-* nach **Renewal-Time** fragt Client den DHCP-Server per Unicast um Erneuerung de Lease-Time
+* nach **Renewal-Time** fragt Client den DHCP-Server per Unicast um Erneuerung der Lease-Time
 * nach **Rebind-Time** falls keine Antwort auf Renewal: Broadcast um Lease von einem anderen DHCP-Server erneuert zu bekommen
 * wenn Lease-Time abgelaufen: erneutes DHCP-Discover nötig
 
@@ -101,7 +101,7 @@ sequenceDiagram
 
 * erlaubt DHCP über Router hinweg
 * im Relay wird Adresse des DHCP-Servers konfiguriert
-* DHCP-Server benötigt separate Adress-Pools für jedes Subsetz
+* DHCP-Server benötigt separate Adress-Pools für jedes Subnetz
 
 
 ## Ausfallsicherheit
@@ -191,7 +191,7 @@ sequenceDiagram
 4. Router antworten mit **[Router Advertisement](https://de.wikipedia.org/wiki/Neighbor_Discovery_Protocol#Router_Advertisement_%E2%80%93_Type_134)**
 * beinhaltet **Präfix**, innerhalb dessen er Adressen anbietet
 
-5. Client generiert Globale Adresse mit Präfig des Routers (und z.B. MAC oder Zufall)
+5. Client generiert Globale Adresse mit Präfix des Routers (und z.B. MAC oder Zufall)
 
 6. Client prüft per NDP, dass niemand anderes im Netz die gleiche Adresse nutzt
 
