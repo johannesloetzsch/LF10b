@@ -1,12 +1,77 @@
-# RAID
+# [RAID](https://de.wikipedia.org/wiki/RAID)
 
-> Welche **RAID-Level** kennen Sie?
+**r**edundant **a**rray of **i**ndependent **d**isks
 
-- RAID0 (striping)
-- RAID1 (mirroring)
-- RAID5 (single parity)
-- RAID6 (double parity)
+**r**edundant **a**rray of **i**nexpensive **d**isks
+
+> **📝❗** FiSi AP2 Konzeption Winter 2021 Aufgabe 3
+
+> **📝❗** FiSi AP2 Konzeption Sommer 2022 Aufgabe 1
+
+> **📝❗** FiSi AP2 Konzeption Winter 2023 Aufgabe 4c
+
+> **📝❗** FiSi AP2 Konzeption Sommer 2024 Aufgabe 4
+
+> **📝❗** FiSi AP2 Konzeption Winter 2024 Aufgabe 3
+
+
+> **💬** Welche **RAID-Level** kennen Sie?
+
+| RAID level                     | Disks  | Redundanz |
+| ------------------------------ | ------ | --------- |
+| **RAID0** (striping) / [JBOD](https://de.wikipedia.org/wiki/RAID#JBOD) | n >= 2 | 0         |
+| **RAID1** (mirroring)          | n >= 2 | n-1       |
+| **RAID5** (single parity)      | n >= 3 | 1         |
+| **RAID6** (double parity)      | n >= 4 | 2         |
+| RAID01 (mirroring of striping) | n >= 4 | n/2 (bei 2fachem mirroring) |
+| RAID10 (spriping of mirroring) | n >= 4 | n/2 (bei 2fachem mirroring) |
+
+> [**❓❗**](https://de.wikipedia.org/wiki/Redundanz_(Technik) "Redundanz") Wieviele Platten dürfen jeweils maximal ausfallen bevor Daten verloren gehen?
+
+> [**❓❗**](https://de.wikipedia.org/wiki/Redundanz_(Technik) "Disks - Redundanz") Wieviele der Platten stehen als Nettokapazität zur Verfügung?
+
+> **❓❗** Wie wirkt sicht die Redundanz bei den verschiedenen RAID-leveln auf die Lese- und Schreibgeschwindigkeit im Vergleich aus?
+
+![](https://upload.wikimedia.org/wikipedia/commons/9/9b/RAID_0.svg)
+![](https://upload.wikimedia.org/wikipedia/commons/b/b7/RAID_1.svg)
+![](https://upload.wikimedia.org/wikipedia/commons/6/64/RAID_5.svg)
+![](https://upload.wikimedia.org/wikipedia/commons/7/70/RAID_6.svg)
+
+![](https://upload.wikimedia.org/wikipedia/commons/a/ad/RAID_01.svg)
+![](https://upload.wikimedia.org/wikipedia/commons/b/bb/RAID_10.svg)
 
 > „Prüfungsvorbereitung Fachinformatiker Systemintegration“ 2.6.4. (Seite 66)
 
-> [Mehr Informationen zu RAID](https://www.thomas-krenn.com/de/wikiDE/index.php?title=RAID)
+> **💬** Welche Vor- und Nachteile haben Software-/Hardware-Raidcontroller?
+
+> **💡** [Mehr Informationen zu RAID](https://www.thomas-krenn.com/de/wikiDE/index.php?title=RAID)
+
+
+## Netzwerkspeicher
+
+### [DAS](https://de.wikipedia.org/wiki/Direct_Attached_Storage)
+**D**irect **A**ttached **S**torage
+
+=> (per Ethernet) an einen einzelnen Rechner angeschlossene Festplatten ohne Netzwerk
+
+![](https://upload.wikimedia.org/wikipedia/commons/2/2c/QNAP_TS-269L_rear_20130511.jpg)
+
+### [NAS](https://de.wikipedia.org/wiki/Network_Attached_Storage)
+**N**etwork **A**ttached **S**torage
+
+=> „netzgebundener Speicher“
+
+=> Dateibasiert
+
+![](https://upload.wikimedia.org/wikipedia/commons/2/29/NAS.png)
+
+### [SAN](https://de.wikipedia.org/wiki/Storage_Area_Network)
+**S**torage **A**rea **N**etwork
+
+=> Speicher**netzwerk** für hohe Verfügbarkeit und Performance
+
+=> z.B. mittels [Fibre Channel](https://de.wikipedia.org/wiki/Fibre_Channel)
+
+=> Blockbasiert
+
+![](https://upload.wikimedia.org/wikipedia/commons/7/7f/Schema_SAN_german_V2.png)
