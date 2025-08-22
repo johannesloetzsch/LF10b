@@ -105,3 +105,8 @@ Archivbit:
 > * WORM, Authentifizierung der Clients am Backupserver
 > * Verschlüsselung, Integritätsüberprüfung, Signaturen
 > * Automatisierung, Monitoring
+
+* [0] [Restic](https://restic.net)
+* [1] [Duplicity](https://duplicity.gitlab.io)
+* [2] [Borgbackup](https://www.borgbackup.org)
+* [3] [xcopy](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/xcopy)

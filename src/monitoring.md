@@ -1,4 +1,4 @@
-# Überwachung == Monitoring
+# „Überwachung“ / Monitoring
 
 ## Ziele
 
@@ -7,7 +7,11 @@
   * Mangel an Ressourcen
     * verbleibende freie Festplattenkapazität
   * „Health“ von Festplatten
-    * SMART-Daten
+    * [**SMART**](https://de.wikipedia.org/wiki/Self-Monitoring,_Analysis_and_Reporting_Technology)-Daten
+      * **S**elf-**M**onitoring, **A**nalysis and **R**eporting **T**echnology
+  * Informationen von Netzwerkgeräten
+    * [**SNMP**](https://de.wikipedia.org/wiki/Simple_Network_Management_Protocol)
+      * **S**imple **N**etwork **M**anagement **P**rotocol
   * Kostenkontrolle
     * API-Nutzung
   * Ablauf von SSL-Zertifikaten
