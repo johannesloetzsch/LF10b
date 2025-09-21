@@ -45,33 +45,3 @@
 > **💬** Welche Vor- und Nachteile haben Software-/Hardware-Raidcontroller?
 
 > **💡** [Mehr Informationen zu RAID](https://www.thomas-krenn.com/de/wikiDE/index.php?title=RAID)
-
-
-## Netzwerkspeicher
-
-### [DAS](https://de.wikipedia.org/wiki/Direct_Attached_Storage)
-**D**irect **A**ttached **S**torage
-
-=> (per Ethernet) an einen einzelnen Rechner angeschlossene Festplatten ohne Netzwerk
-
-![](https://upload.wikimedia.org/wikipedia/commons/2/2c/QNAP_TS-269L_rear_20130511.jpg)
-
-### [NAS](https://de.wikipedia.org/wiki/Network_Attached_Storage)
-**N**etwork **A**ttached **S**torage
-
-=> „netzgebundener Speicher“
-
-=> Dateibasiert
-
-![](https://upload.wikimedia.org/wikipedia/commons/2/29/NAS.png)
-
-### [SAN](https://de.wikipedia.org/wiki/Storage_Area_Network)
-**S**torage **A**rea **N**etwork
-
-=> Speicher**netzwerk** für hohe Verfügbarkeit und Performance
-
-=> z.B. mittels [Fibre Channel](https://de.wikipedia.org/wiki/Fibre_Channel)
-
-=> Blockbasiert
-
-![](https://upload.wikimedia.org/wikipedia/commons/7/7f/Schema_SAN_german_V2.png)

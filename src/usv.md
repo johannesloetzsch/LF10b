@@ -1,6 +1,8 @@
 # USV
 **U**nterbrechungsfreie **S**trom**v**ersorgung
 
+<!-- toc -->
+
 > 2023 Sommer SI Konzeption — Aufgabe 2
 
 > „Prüfungsvorbereitung Fachinformatiker Systemintegration“ 2.5.7. (Seite 71)
@@ -28,3 +30,13 @@ flowchart TB
 => **V**oltage and **F**requency **I**ndependent
 
 ![VFI](https://upload.wikimedia.org/wikipedia/commons/8/83/VFI_UPS_-_Online_UPS_%28German%29.svg)
+
+## Vergleich
+
+|                           | Offline | Netzinteraktiv | Online |
+| ------------------------- | ------- | -------------- | ------ |
+|                           | VFD     | VI             | VFI    |
+| Umschaltzeit              | ~10ms   | ~2-4ms         | 0ms    | 
+| Eigenbedarf (Leerlauf)    | ~5W     | ~15W           | ~85W   |
+| Wirkungsgrad (unter Last) | ~100%   |                | ~95%   |
+| Kosten                    | min     |                | max    |

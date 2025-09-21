@@ -25,9 +25,11 @@
 
 * [Verfügbarkeit](./verfuegbarkeit.md)
   * [USV](./usv.md)
-  * [RAID](./raid.md)
+  * [Storage](./storage.md)
+    * [RAID](./raid.md)
   * [**Datensicherung**](./datensicherung.md)
   * [**Monitoring**](./monitoring.md)
+    * [SNMP](./snmp.md)
   * [**Automatisierung von Administrationsprozessen**](./automatisierung.md)
   * [Versionierung](./versionierung.md)
 

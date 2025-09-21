@@ -23,7 +23,7 @@ gantt
   Klassenarbeit                 :crit, milestone, 2025-08-20, 2h
   Verfügbarkeit von Daten (Backup, RAID)  :2025-08-20, 3h
  section Fr 22.8.
-  Verfügbarkeit (TOM, Automatisierung, Monitoring) :2025-08-22, 4h
+  Verfügbarkeit (TOM, Monitoring) :2025-08-22, 4h
   SOL Wiederanlaufplan          :crit, milestone, 2025-08-22, 2h
 ```
 
@@ -37,7 +37,7 @@ gantt
   Wiederholung Verfügbarkeit, Q&A  :2025-09-22, 3h
  section Di 23.9.
   Klassenarbeit                 :crit, milestone, 2025-09-23, 2h
-  Vorstellung Projektpläne      :crit, 2025-09-23, 6h
+  Vorstellung Projektpläne, Automatisierung :crit, 2025-09-23, 4h
  section Do 25.9.
   Praxis (Server aufsetzen)     :2025-09-25, 5h
  section Mo 29.9.
@@ -82,11 +82,12 @@ gantt
 * **Klassenarbeit Di 23.9.2025** (doppelte Wertung, 90min, handschriftlich)
   * erlaubte Hilfsmittel: Fact sheet (1 A4-Blatt, einseitig beschrieben)
   * Inhalte
-    * [Verfügbarkeit](./verfuegbarkeit.md)
-      * [RAID](./raid.md)
-      * [USV](./usv.md)
-      * [Datensicherung](./datensicherung.md)
-      * [Monitoring](./monitoring.md)
+    * [Verfügbarkeit](./verfuegbarkeit.md): MTTF, MTBF, TOM
+      * [USV](./usv.md): 3 Typen vergleichen
+      * [RAID](./raid.md): Level vergleichen, Rechenaufgaben
+      * [Datensicherung](./datensicherung.md): RTO, RPO, WORM, 3-2-1, Generationenprinzip, Strategien, Rechenaufgaben
+      * [Monitoring](./monitoring.md): Komponenten, Metriken, SMART, [SNMP](./snmp.md)
+    *  [Auswahl gemäß Kundenanforderungen](./auswahl.md): Auswählen und Begründen im Bezug auf: Wirtschaftlichkeit, Skalierbarkeit, Administrierbarkeit, Sicherheit
 
 * **Projektplan** (einfache Wertung)
   * Insbesondere Wiederanlaufplan (SOL vom Fr 22.8.)
