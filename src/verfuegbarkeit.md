@@ -1,5 +1,7 @@
 # Verfügbarkeit == Ausfallsicherheit
 
+<!-- toc -->
+
 ```mermaid
 flowchart TB
   Verfügbarkeit --> Redundanz
@@ -7,9 +9,12 @@ flowchart TB
   Hardware --> Cluster
   Hardware --> USV
   Redundanz --> Netzwerk --> Topologie
+  Netzwerk --> LinkAggregation
+  Netzwerk --> FHRP
   Redundanz --> Services
   Services --> Architektur
-  Services --> Deployments --> GreenBlue
+  Services --> Deployments --> Staging
+  Deployments --> BlueGreen
   Redundanz --> Daten
   Daten --> DistributedDB
   Daten --> Raid
@@ -18,22 +23,27 @@ flowchart TB
   OrganisatorischeMaßnahmen --> Monitoring
   OrganisatorischeMaßnahmen --> Wiederanlaufkonzepte
   OrganisatorischeMaßnahmen --> Automatisierung
-  Automatisierung --> Skallierbarkeit+Wirtschaftlichkeit
-  Skallierbarkeit+Wirtschaftlichkeit
+  Automatisierung --> Skalierbarkeit+Wirtschaftlichkeit
+  Skalierbarkeit+Wirtschaftlichkeit
   Automatisierung --> Wiederanlauf
   Automatisierung --> ChangeManagement
   Automatisierung --> Rollback
 ```
 
-## Redundanz
+## => Redundanz
 
 ### [USV](./usv.md)
 
 ### [RAID](./raid.md)
 
-### Redundanz in Netzwerken
+### [Netzwerk](./netzwerk.md)
 
-#### Redundanz von Services
+### Redundanz von Services
+
+> **💬❗** Welche Maßnahmen zur Erhöhung der Verfügbarkeit kennen Sie?
+>
+> Welchen Beitrag können diese Maßnahmen zur Skalierbarkeit leisten?
+
 
 ```mermaid
 flowchart TB
@@ -51,32 +61,17 @@ z.B.
 * Router
 
 
-#### [Link Aggregation](https://de.wikipedia.org/wiki/Link_Aggregation)
-IEEE 802.3ad, IEEE 802.1AX
+### Deployments
 
-„Bonding“
+#### [Staging-Umgebung](https://de.wikipedia.org/wiki/Bereitstellungsumgebung)
 
-=> Redundanz => Ausfallsicherheit
+> **💬❗** Welche [Bereitstellungsumgebungen](https://de.wikipedia.org/wiki/Bereitstellungsumgebung) kennen Sie?
 
-=> erhöhter Durchsatz
+#### [Blue Green Deployments](https://en.wikipedia.org/wiki/Blue%E2%80%93green_deployment)
 
-![](https://upload.wikimedia.org/wikipedia/commons/3/34/Link_Aggregation1.svg)
+> **❓❗** Was versteht man unter einem [Blue Green Deployment](https://en.wikipedia.org/wiki/Blue%E2%80%93green_deployment)?
 
 
-#### [**F**irst **H**op **R**edundancy **P**rotocols (FHRP)](https://en.wikipedia.org/wiki/First-hop_redundancy_protocol)
+## TOM
 
-> „Prüfungsvorbereitung Fachinformatiker Systemintegration“ 2.8.10. (Seite 104)
-
-```mermaid
-flowchart TB
-  RedundanteRouter --> IETF --> VRRP
-  RedundanteRouter --> Cisco
-  Cisco --> GLBR
-  Cisco --> HSRP
-```
-
-* verwenden Nachrichten um Status der Router auszutauschen
-* verwenden virtuele MAC-Adresse
-* verwenden virtuelle IP-Adresse
-
-* erlauben LoadBalancing zwischen Routern (außer HSRP)
+> **💬❗** Welche Technischen und **Organisatorischen** Maßnahmen sind erforderlich um Verfügbarkeit für ein System zu gewährleisten?

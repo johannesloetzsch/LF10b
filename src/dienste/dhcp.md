@@ -106,7 +106,7 @@ sequenceDiagram
 
 ## Ausfallsicherheit
 
-> **❓❗** Wie können Verfügbarkeit und Skallierbarkeit erhöht werden?
+> **❓❗** Wie können Verfügbarkeit und Skalierbarkeit erhöht werden?
 
 ### Active-Passive-Failover
 * Active-DHCP-Server synchronisiert seinen Status mit Passive-DHCP-Servern

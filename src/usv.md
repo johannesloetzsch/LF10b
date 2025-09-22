@@ -3,9 +3,14 @@
 
 <!-- toc -->
 
-> 2023 Sommer SI Konzeption — Aufgabe 2
+> **💬❗** Welche Arten von USV kennen Sie? Wie unterscheiden diese sich?
+>
+> Welche Vor- und Nachteile *(jeweils mindestens 2)* haben sie im Vergleich?
+
+> **📝❗** FiSi AP2 Konzeption Sommer 2023 Aufgabe 2
 
 > „Prüfungsvorbereitung Fachinformatiker Systemintegration“ 2.5.7. (Seite 71)
+
 
 ## [Klassifizierung](https://de.wikipedia.org/wiki/Unterbrechungsfreie_Stromversorgung#Klassifizierung)
 

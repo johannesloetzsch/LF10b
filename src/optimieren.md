@@ -20,8 +20,23 @@
 
 ### Automatisierung
 
+- [ ] Regelmäßige vollständige Updates gewährleisten
 - [ ] Automatische Wiederherstellung möglich
 - [ ] Lösung ermöglicht Review von Veränderungen (Change Management)
 - [ ] Idempotente Anwendung der Konfigurationsverwaltung funktioniert fehlerfrei
 - [ ] Mehrere Konfigurationen lassen sich miteinander kombinieren
 - [ ] Ein einzelner Konfigurationsschritt kann einfach und sauber rückgängig gemacht werden
+
+### Organisatorische Maßnahmen
+
+- [ ] Planung
+- [ ] Dokumentation
+- [ ] …
+
+### Bonus
+
+- [ ] Dienste
+- [ ] Virtualisierung, Containerisierung
+- [ ] Skalierung
+- [ ] Weitere Maßnahmen zur Steigerung der Verfügbarkeit
+  - z.B. RAID, Netzwerkredundanz

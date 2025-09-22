@@ -82,12 +82,12 @@ gantt
 * **Klassenarbeit Di 23.9.2025** (doppelte Wertung, 90min, handschriftlich)
   * erlaubte Hilfsmittel: Fact sheet (1 A4-Blatt, einseitig beschrieben)
   * Inhalte
-    * [Verfügbarkeit](./verfuegbarkeit.md): MTTF, MTBF, TOM
+    * [**Verfügbarkeit**](./verfuegbarkeit.md): MTTF, MTBF, TOM
       * [USV](./usv.md): 3 Typen vergleichen
-      * [RAID](./raid.md): Level vergleichen, Rechenaufgaben
-      * [Datensicherung](./datensicherung.md): RTO, RPO, WORM, 3-2-1, Generationenprinzip, Strategien, Rechenaufgaben
+      * [**RAID**](./raid.md): Level vergleichen, Rechenaufgaben
+      * [**Datensicherung**](./datensicherung.md): RTO, RPO, WORM, 3-2-1, Generationenprinzip, Strategien, Rechenaufgaben
       * [Monitoring](./monitoring.md): Komponenten, Metriken, SMART, [SNMP](./snmp.md)
-    *  [Auswahl gemäß Kundenanforderungen](./auswahl.md): Auswählen und Begründen im Bezug auf: Wirtschaftlichkeit, Skalierbarkeit, Administrierbarkeit, Sicherheit
+    *  [Auswahl gemäß Kundenanforderungen](./auswahl.md): Auswählen und Begründen im Bezug auf: [Wirtschaftlichkeit](./wirtschaftlichkeit.md), [Skalierbarkeit](./skalierbarkeit.md), [Administrierbarkeit](./administierbarkeit.md), Sicherheit
 
 * **Projektplan** (einfache Wertung)
   * Insbesondere Wiederanlaufplan (SOL vom Fr 22.8.)

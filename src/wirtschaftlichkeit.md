@@ -1,5 +1,8 @@
 # Wirtschaftlichkeit
 
+> **💬** In wechem Verhältnis stehen Wirtschaftlichkeit und andere Anforderungen?
+
+
 > [`Wirtschaftlichkeit`](https://de.wikipedia.org/wiki/Wirtschaftlichkeit#Betriebswirtschaftliche_Kennzahlen_der_Wirtschaftlichkeit) = `Erträge` / `Aufwendungen`
 
 `Erträge` werden durch das bereitstellen von `Funktionalität` erwirtschaftet.

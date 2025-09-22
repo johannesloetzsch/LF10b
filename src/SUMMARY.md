@@ -25,6 +25,7 @@
 
 * [Verfügbarkeit](./verfuegbarkeit.md)
   * [USV](./usv.md)
+  * [Netzwerk](./netzwerk.md)
   * [Storage](./storage.md)
     * [RAID](./raid.md)
   * [**Datensicherung**](./datensicherung.md)
