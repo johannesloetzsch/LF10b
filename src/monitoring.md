@@ -1,6 +1,6 @@
 # „Überwachung“ / Monitoring
 
-## Ziele
+## Ziele und Metriken
 
 * **Verfügbarkeit**, Wirtschaftlichkeit, Sicherheit, Skalierbarkeit, Administrierbarkeit
 * Erkennung von Ereignissen **vor Schadenseintritt**
@@ -89,8 +89,8 @@ Wie werden Daten übermittelt?
 
 ## Lösungen
 
-* [MMonit](https://mmonit.com)
-* [Nagios](https://www.nagios.org)
-* [Icinga](https://icinga.com)
+* [Nagios](https://www.nagios.org), [Icinga](https://icinga.com)
 * [Grafana](https://grafana.com) + [Prometheus](https://prometheus.io) (+ [Loki](https://grafana.com/oss/loki))
+* [CheckMK](https://checkmk.com/)
+* [MMonit](https://mmonit.com)
 * [Webmin](https://webmin.com/)
