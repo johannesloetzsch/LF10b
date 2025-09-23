@@ -94,3 +94,4 @@ Wie werden Daten übermittelt?
 * [CheckMK](https://checkmk.com/)
 * [MMonit](https://mmonit.com)
 * [Webmin](https://webmin.com/)
+* [Zabbix](https://www.zabbix.com/)

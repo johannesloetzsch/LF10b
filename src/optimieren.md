@@ -31,12 +31,13 @@
 
 - [ ] Planung
 - [ ] Dokumentation
+- [ ] Versionskontrolle
 - [ ] …
 
 ### Bonus
 
-- [ ] Dienste
 - [ ] Virtualisierung, Containerisierung
+- [ ] Dienste
 - [ ] Skalierung
 - [ ] Weitere Maßnahmen zur Steigerung der Verfügbarkeit
   - z.B. RAID, Netzwerkredundanz

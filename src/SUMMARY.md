@@ -37,4 +37,5 @@
 * [Planen der Konfiguration](./planen.md)
   * [Wiederanlaufplan](./wiederanlaufplan.md)
 * [Implementierung](./implementierung.md)
+  * [Dokumentation](./dokumentation.md)
   * [Optimieren](./optimieren.md)
