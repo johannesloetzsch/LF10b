@@ -2,6 +2,10 @@
 
 ## Ziele und Metriken
 
+> **💬** Wofür wird Monitoring benötigt?
+>
+> Welche [Metriken](https://www.digitalocean.com/community/tutorials/an-introduction-to-metrics-monitoring-and-alerting) kennen Sie?
+
 * **Verfügbarkeit**, Wirtschaftlichkeit, Sicherheit, Skalierbarkeit, Administrierbarkeit
 * Erkennung von Ereignissen **vor Schadenseintritt**
   * Mangel an Ressourcen
