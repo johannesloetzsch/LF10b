@@ -52,3 +52,14 @@ flowchart TB
 | Eigenbedarf (Leerlauf)    | ~5W     | ~15W           | ~85W   |
 | Wirkungsgrad (unter Last) | ~100%   |                | ~95%   |
 | Kosten                    | min     |                | max    |
+
+## Praxiserfahrung
+
+> **💡** Wie ist die Lebensdauer der Akkus?
+> * Temperatur (im Serverraum)
+> * Wartung, Testen, Messen, Überwachen
+
+> **💡** Was passiert wenn die Akkus und der Diesel des Generators alle sind?
+
+> **💡💬** Was muss ich bei der Wartung beachten?
+> * Sind meine Server alle „**Reboot Safe**“?
