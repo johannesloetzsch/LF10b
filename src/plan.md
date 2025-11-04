@@ -23,7 +23,7 @@ gantt
   Klassenarbeit                 :crit, milestone, 2025-08-20, 2h
   Verfügbarkeit von Daten (Backup, RAID)  :2025-08-20, 3h
  section Fr 22.8.
-  Verfügbarkeit (TOM, Monitoring) :2025-08-22, 4h
+  Verfügbarkeit (TOM, Automatisierung, Monitoring) :2025-08-22, 4h
   SOL Wiederanlaufplan          :crit, milestone, 2025-08-22, 2h
 ```
 
