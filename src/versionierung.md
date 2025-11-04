@@ -8,6 +8,9 @@
 * ZFS
 * btrfs
 
+### VM Snapshots
+### „Golden Image“
+
 ## SCM (**Source Code Management**)
 
 -> **git**

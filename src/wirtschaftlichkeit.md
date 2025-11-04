@@ -1,5 +1,8 @@
 # Wirtschaftlichkeit
 
+> **💬** In wechem Verhältnis stehen Wirtschaftlichkeit und andere Anforderungen?
+
+
 > [`Wirtschaftlichkeit`](https://de.wikipedia.org/wiki/Wirtschaftlichkeit#Betriebswirtschaftliche_Kennzahlen_der_Wirtschaftlichkeit) = `Erträge` / `Aufwendungen`
 
 `Erträge` werden durch das bereitstellen von `Funktionalität` erwirtschaftet.
@@ -13,6 +16,11 @@ Als [Massengut](https://de.wikipedia.org/wiki/Massengut) verkäufliche IT-Produk
 > [Größte Börsenunternehmen nach Marktkapitalisierung](https://de.wikipedia.org/wiki/Liste_der_gr%C3%B6%C3%9Ften_Unternehmen_der_Welt#PwC_Global_Top_100_%E2%80%93_Gr%C3%B6%C3%9Fte_b%C3%B6rsennotierte_Unternehmen_nach_Marktkapitalisierung)
 
 Kleinere Unternehmen und [Startups](https://de.wikipedia.org/wiki/Start-up-Unternehmen) sind eher dann konkurenzfähig, wenn sie individuelle Dienstleistungen entsprechend variabler **`Kundenanforderungen`** anbieten. Dazu zählen Beratung, Support, Integration, Anpassungen, …
+Als [Massengut](https://de.wikipedia.org/wiki/Massengut) verkäufliche IT-Produkte (IaaS, PaaS) und [`Standartsoftware`](https://de.wikipedia.org/wiki/Standardsoftware) als SaaS können aufgrund von [`Skaleneffekten`](https://de.wikipedia.org/wiki/Skaleneffekt) ([`Economies of scale`](https://en.wikipedia.org/wiki/Economies_of_scale)) besonders effizient von Anbietern erbracht werden, welche sich auf [`Hyperscale computing`](https://en.wikipedia.org/wiki/Hyperscale_computing) spezialisiert haben.
+
+> [Größte Börsenunternehmen nach Marktkapitalisierung](https://de.wikipedia.org/wiki/Liste_der_gr%C3%B6%C3%9Ften_Unternehmen_der_Welt#PwC_Global_Top_100_%E2%80%93_Gr%C3%B6%C3%9Fte_b%C3%B6rsennotierte_Unternehmen_nach_Marktkapitalisierung)
+
+Kleinere Unternehmen und [Startups](https://de.wikipedia.org/wiki/Start-up-Unternehmen) sind eher dann konkurenzfähig, wenn sie individuelle Dienstleistungen entsprechend variabler **`Kundenanforderungen`** anbieten. Dazu zählen [Individualsoftware](https://de.wikipedia.org/wiki/Individualsoftware), Beratung, Support, Integration, Anpassungen, …
 
 
 ```mermaid

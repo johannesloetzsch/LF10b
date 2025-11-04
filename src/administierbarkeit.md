@@ -1,6 +1,10 @@
 # Administrierbarkeit
 
+<!-- toc -->
+
 ## Snowflakeserver vs Konfigurationsmanagementsysteme
+
+> **❓** Was wird unter einem Snowflakeserver verstanden?
 
 ```mermaid
 flowchart TB
@@ -17,6 +21,23 @@ flowchart TB
 ```
 
 ## [Automatisierung](./automatisierung.md)
+
+### Setup, Updates, Wiederherstellung
+
+> **💬❗** Welche Lösungen kennen Sie, um alle auf ihen Systemen installierte Software regelmäßig mit Sicherheitsupdates zu versorgen?
+
+> **❓❗** Was muss bei der Installation berücksichtigt werden, um horizontale Skalierbarkeit wirtschaftlich gewährleisten zu können?
+
+> **💬❗** Wie können Sie Automatisierungslösungen zur [Notfallwiederherstellung](https://de.wikipedia.org/wiki/Disaster_Recovery) einsetzen?
+
+
+### Konfigurationsmanagement
+
+> **❓❗** Welche Vorteile haben Konfigurationsmanagementsysteme?
+
+> **❓❗** Wie unterscheiden sich imperative und deklarative Systemverwaltung?
+
+> **💬** Welche [KM-Werkzeuge](https://de.wikipedia.org/wiki/Konfigurationsmanagement#Spezialisierte_KM-Werkzeuge_(z._B._f%C3%BCr_DevOps_oder_Cloud),_teils_Open-Source) kennen Sie?
 
 ## Vergleich verrschiedenen Automatierungslösungen
 

@@ -1,13 +1,21 @@
-# Überwachung == Monitoring
+# „Überwachung“ / Monitoring
 
-## Ziele
+## Ziele und Metriken
+
+> **💬** Wofür wird Monitoring benötigt?
+>
+> Welche [Metriken](https://www.digitalocean.com/community/tutorials/an-introduction-to-metrics-monitoring-and-alerting) kennen Sie?
 
 * **Verfügbarkeit**, Wirtschaftlichkeit, Sicherheit, Skalierbarkeit, Administrierbarkeit
 * Erkennung von Ereignissen **vor Schadenseintritt**
   * Mangel an Ressourcen
     * verbleibende freie Festplattenkapazität
   * „Health“ von Festplatten
-    * SMART-Daten
+    * [**SMART**](https://de.wikipedia.org/wiki/Self-Monitoring,_Analysis_and_Reporting_Technology)-Daten
+      * **S**elf-**M**onitoring, **A**nalysis and **R**eporting **T**echnology
+  * Informationen von Netzwerkgeräten
+    * [**SNMP**](https://de.wikipedia.org/wiki/Simple_Network_Management_Protocol)
+      * **S**imple **N**etwork **M**anagement **P**rotocol
   * Kostenkontrolle
     * API-Nutzung
   * Ablauf von SSL-Zertifikaten
@@ -85,8 +93,9 @@ Wie werden Daten übermittelt?
 
 ## Lösungen
 
-* [MMonit](https://mmonit.com)
-* [Nagios](https://www.nagios.org)
-* [Icinga](https://icinga.com)
+* [Nagios](https://www.nagios.org), [Icinga](https://icinga.com)
 * [Grafana](https://grafana.com) + [Prometheus](https://prometheus.io) (+ [Loki](https://grafana.com/oss/loki))
+* [CheckMK](https://checkmk.com/)
+* [MMonit](https://mmonit.com)
 * [Webmin](https://webmin.com/)
+* [Zabbix](https://www.zabbix.com/)

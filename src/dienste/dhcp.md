@@ -106,7 +106,7 @@ sequenceDiagram
 
 ## Ausfallsicherheit
 
-> **❓❗** Wie können Verfügbarkeit und Skallierbarkeit erhöht werden?
+> **❓❗** Wie können Verfügbarkeit und Skalierbarkeit erhöht werden?
 
 ### Active-Passive-Failover
 * Active-DHCP-Server synchronisiert seinen Status mit Passive-DHCP-Servern
@@ -172,11 +172,11 @@ Diskutieren Sie die Sicherheit von DHCP im Bezug auf
 sequenceDiagram
     participant Client
     participant Netz
-    participant Server
+    participant Router
     Client->>Client: 1. Link local Address
     Client->>Netz: 2. Duplicate Address Detection
-    Client->>Server: 3. Router Solicitation
-    Server->>Client: 4. Router Advertisement
+    Client->>Router: 3. Router Solicitation
+    Router->>Client: 4. Router Advertisement
     Note right of Client: Global Unicast Prefix,<br/>Gateway Address,<br/>DNS Server Address
     Client->>Client: 5. Global Unicast Address
     Client->>Netz: 6. Duplicate Address Detection

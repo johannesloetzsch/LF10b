@@ -1,5 +1,9 @@
 # Skalierbarkeit
 
+> **❓❗** Welche Arten von Skalierbarkeit gibt es und in und welche davon möchten Sie in welchen Fällen nutzen?
+
+> **📝❗** FiSi AP2 Konzeption Sommer 2023 Aufgabe 2b
+
 ## [**Horizontale Skalierung** (scale out) vs **Vertikale Skalierung (scale up)**](https://de.wikipedia.org/wiki/Skalierbarkeit#Vertikale_vs._horizontale_Skalierung:~:text=%5B3%5D-,Vertikale%20Skalierung%20(scale%20up),-%5BBearbeiten%20%7C)
 
 [![](https://www.fmslib.com/img/storageCost.png)](https://www.fmslib.com/mkt/whydisks.html "Kosten in Anbhängigkeit von Leistung/Kapazität")

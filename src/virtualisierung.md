@@ -7,7 +7,7 @@
 
 ## Einführung
 
-Virtualisierung erlaubt mehrere Systeme auf des selben physischen Host-Hardware gleichzeitig auszuführen. Aus Sicht des Gast-Systeme verhält sich die virtualisierte Umgebung gleich oder zumindest ähnlich wie die physische Hardware.
+Virtualisierung erlaubt mehrere Systeme auf der selben physischen Hardware (Hostsystem) gleichzeitig auszuführen. Aus Sicht der Gast-Systeme verhält sich die virtualisierte Umgebung gleich oder zumindest ähnlich wie die physische Hardware.
 
 [**Virtuelle Maschinen** (VMs)](https://de.wikipedia.org/wiki/Virtuelle_Maschine) basieren auf der Virtualisierung (Multiplexing) jeder einzelnen Hardwarekomponente (Prozessorvirtualisierung, Speichervirtualisierung, Netzwerkvirtualisierung, …).
 

@@ -64,7 +64,7 @@
 => Genutzte Ressoucen werden gesteuert und überwacht. Die Bezahlung erfolgt nach dem Prinzip **pay-per-use**
 
 
-### Service Models
+### Service Models (Dienstleistungsmodelle)
 
 ```mermaid
 flowchart TB
@@ -79,12 +79,12 @@ flowchart TB
 #### [PaaS](https://de.wikipedia.org/wiki/Platform_as_a_Service)
 **P**latform **a**s **a** **S**ervice
 
-z.B. „AWS Container Service“ „AWS Kubernetes Service“
+z.B. DB, „AWS Container Service“ „AWS Kubernetes Service“
 
 #### [IaaS](https://de.wikipedia.org/wiki/Infrastructure_as_a_Service)
 **I**nfrastructure **a**s **a** **S**ervice
 
-z.B. virtuelle Server, „AWS Elastic Compute Cloud2“ (EC2)
+z.B. virtuelle private Server (VPS), „AWS Elastic Compute Cloud2“ (EC2)
 
 ![](https://upload.wikimedia.org/wikipedia/commons/b/b5/Cloud_computing.svg)
 
@@ -94,7 +94,7 @@ z.B. virtuelle Server, „AWS Elastic Compute Cloud2“ (EC2)
 > Auf welchen Standarts basieren sie und welche Alternativen gibt es?
 
 
-### Liefermodelle
+### Liefermodelle (Bereitstellungsarten)
 
 > **💬❗** Welche [Liefermodelle](https://de.wikipedia.org/wiki/Cloud_Computing#Liefermodelle) werden unterschieden?
 
