@@ -260,3 +260,17 @@ Diskutieren Sie die Sicherheit von DNS im Bezug auf
 
 #### [DNS over HTTPS (DoH)](https://de.wikipedia.org/wiki/DNS_over_HTTPS)
 * Anwendung fragt DNS-Server direkt anstatt über das Betriebssystem
+
+
+## Vertiefende Informationen
+
+> **💡💬** [Pentaradio-Sendung zum Thema DNS <br/><br/>![](https://c3d2.de/images/pentaradio.png)](https://c3d2.de/news/pentaradio24-20100525.html)
+>
+> <audio controls="controls" autoplay="autoplay">
+>  <source src="http://ftp.c3d2.de/pentaradio/pentaradio-2010-05-25.ogg#t=2714" type="audio/ogg">
+>  <source src="http://ftp.c3d2.de/pentaradio/pentaradio-2010-05-25.mp3#t=2714" type="audio/mpeg">
+> </audio>
+
+> **💡💬** Blog-Artikel zu [Anfriffsszenario auf DNSSEC](http://blog.johannesloetzsch.de/72/)
+
+> **💻** [DNSSEC Workshop](https://www.schlittermann.de/doc/clt2010/)
