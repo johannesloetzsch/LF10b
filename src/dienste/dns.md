@@ -266,7 +266,7 @@ Diskutieren Sie die Sicherheit von DNS im Bezug auf
 
 > **💡💬** [Pentaradio-Sendung zum Thema DNS <br/><br/>![](https://c3d2.de/images/pentaradio.png)](https://c3d2.de/news/pentaradio24-20100525.html)
 >
-> <audio controls="controls" autoplay="autoplay">
+> <audio controls="controls">
 >  <source src="http://ftp.c3d2.de/pentaradio/pentaradio-2010-05-25.ogg#t=2714" type="audio/ogg">
 >  <source src="http://ftp.c3d2.de/pentaradio/pentaradio-2010-05-25.mp3#t=2714" type="audio/mpeg">
 > </audio>
@@ -274,3 +274,9 @@ Diskutieren Sie die Sicherheit von DNS im Bezug auf
 > **💡💬** Blog-Artikel zu [Anfriffsszenario auf DNSSEC](http://blog.johannesloetzsch.de/72/)
 
 > **💻** [DNSSEC Workshop](https://www.schlittermann.de/doc/clt2010/)
+
+> **💡** [Dan Kaminsky Black Ops](https://media.ccc.de/search?p=Kaminsky)
+
+<iframe width="1024" height="576" src="https://media.ccc.de/v/24c3-2393-en-dns_rebinding_packet_tricks/oembed#t=3" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="1024" height="576" src="https://media.ccc.de/v/25c3-2906-en-why_were_we_so_vulnerable_to_the_dns_vulnerability/oembed#t=10" frameborder="0" allowfullscreen></iframe>
