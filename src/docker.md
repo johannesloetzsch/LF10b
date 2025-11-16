@@ -22,7 +22,7 @@ less Dockerfile
 docker build -t hedgedoc .
 docker images
 
-docker run -p 3000:3000 hededoc
+docker run -p 3000:3000 hedgedoc
 ```
 > [http://localhost:3000/](http://localhost:3000/)
 

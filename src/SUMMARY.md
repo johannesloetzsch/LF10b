@@ -32,6 +32,7 @@
   * [**Monitoring**](./monitoring.md)
     * [SNMP](./snmp.md)
   * [**Automatisierung von Administrationsprozessen**](./automatisierung.md)
+    * [Ansible](./examples/ansible/README.md)
   * [Versionierung](./versionierung.md)
 
 * [Planen der Konfiguration](./planen.md)
