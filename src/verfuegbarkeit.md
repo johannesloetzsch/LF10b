@@ -70,6 +70,12 @@ IEEE 802.3ad, IEEE 802.1AX
 
 => erhöhter Durchsatz
 
+Verschiedene Funktionen von Link Aggregation:  
+[Wikipedia](https://en.wikipedia.org/wiki/Link_aggregation#Linux_drivers)
+- Round Robin
+- Active Backup
+- XOR....
+
 ![](https://upload.wikimedia.org/wikipedia/commons/3/34/Link_Aggregation1.svg)
 
 
