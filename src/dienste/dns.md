@@ -258,6 +258,15 @@ Diskutieren Sie die Sicherheit von DNS im Bezug auf
 
 #### [DNS over TLS (DoT)](https://de.wikipedia.org/wiki/DNS_over_TLS)
 
+> **💻** Beispiel Abfrage mit `dig`:
+>
+> dig +tls @dns.digitale-gesellschaft.ch afbb.de
+
+<!--
+> dig +tls @dot.ffmuc.net afbb.de
+> dig +tls @9.9.9.9 afbb.de
+-->
+
 #### [DNS over HTTPS (DoH)](https://de.wikipedia.org/wiki/DNS_over_HTTPS)
 * Anwendung fragt DNS-Server direkt anstatt über das Betriebssystem
 
