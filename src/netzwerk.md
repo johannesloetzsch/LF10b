@@ -5,6 +5,8 @@
 > **❓❗** Welche Maßnahmen zur Bereitstellung von Redundanz in Netzwerken kennen Sie?
 
 
+## [Spanning Tree Protocol](https://de.wikipedia.org/wiki/Spanning_Tree_Protocol)
+
 ## [Link Aggregation](https://de.wikipedia.org/wiki/Link_Aggregation)
 IEEE 802.3ad, IEEE 802.1AX
 
@@ -34,3 +36,36 @@ flowchart TB
 * verwenden virtuelle IP-Adresse
 
 * erlauben LoadBalancing zwischen Routern (außer HSRP)
+
+## [Anycast](https://de.wikipedia.org/wiki/Anycast)
+
+## [Round robin DNS](https://de.wikipedia.org/wiki/Lastverteilung_per_DNS)
+
+## Load Balancer
+
+Beispielkonfiguration eines [HAProxy](https://github.com/haproxy/haproxy):
+```
+frontend example_frontend
+    bind *:80
+    default_backend example_backend
+
+backend example_backend
+    balance roundrobin
+
+    option httpchk GET /health
+    http-check expect status 200
+
+    server srv1 10.0.0.11:8080 check
+    server srv2 10.0.0.12:8080 check
+    server srv3 10.0.0.13:8080 check
+```
+
+Methoden zur Lastverteilung:
+* Round Robin
+* Least Connections
+* IP-Hashing
+
+> Beispiel: [Active/Active clustering von HAProxy](https://www.haproxy.com/documentation/haproxy-enterprise/administration/high-availability/active-active/)
+> * mittels [DNS round-robin](https://www.haproxy.com/documentation/haproxy-enterprise/administration/high-availability/active-active/#configure-dns-round-robin)
+> * mittels [VRRP](https://www.haproxy.com/documentation/haproxy-enterprise/administration/high-availability/active-active/#configure-vrrp)
+> * mittels Anycast

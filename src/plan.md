@@ -62,17 +62,17 @@ gantt
 * **Klassenarbeit Di 25.8.2026** (doppelte Wertung, 90min, handschriftlich)
   * Inhalte
     * [**Verfügbarkeit**](./verfuegbarkeit.md): SLA, MTTF, MTBF, TOM
+      * [Badewannenkurve](https://de.wikipedia.org/wiki/Badewannenkurve), Mix and Match
       * [USV](./usv.md): 3 Typen vergleichen
       * [**RAID**](./raid.md): Level vergleichen, Rechenaufgaben
       * [**Datensicherung**](./datensicherung.md): RTO, RPO, WORM, 3-2-1, Generationenprinzip, Strategien, Rechenaufgaben
       * Loadbalancer, FHRP, Link Aggregation
       <!--* [Monitoring](./monitoring.md): Komponenten, Metriken, SMART, [SNMP](./snmp.md)-->
-    *  [Auswahl gemäß Kundenanforderungen](./auswahl.md): Auswählen und Begründen im Bezug auf: [Wirtschaftlichkeit](./wirtschaftlichkeit.md), [Skalierbarkeit](./skalierbarkeit.md), [Administrierbarkeit](./administierbarkeit.md), Sicherheit
+    * [Auswahl gemäß Kundenanforderungen](./auswahl.md): Auswählen und Begründen im Bezug auf: [Wirtschaftlichkeit](./wirtschaftlichkeit.md), [Skalierbarkeit](./skalierbarkeit.md), [Administrierbarkeit](./administierbarkeit.md), Sicherheit
+      * [Skalierbarkeit](./skalierbarkeit.md#kurz-und-knapp): scale up / scale out
 
 * **Klassenarbeit Di 29.9.2026** (doppelte Wertung, 90min, handschriftlich)
   * Inhalte
-    *  (*[Auswahl gemäß Kundenanforderungen](./auswahl.md)*)
-       * [Skalierbarkeit](./skalierbarkeit.md#kurz-und-knapp): scale up / scale out
     * [Plattformen](./plattformen.md)
       * [Cloud](./plattformen.md): Charakeristiken, Vor-/Nachteile, Service Models, Liefermodelle
       * [Virtualisierung](./virtualisierung.md): Hypervisor-Typen, Container-Arten
