@@ -140,6 +140,7 @@ Diskutieren Sie die Sicherheit von DHCP im Bezug auf
   * [Man-in-the-Middle-Angriff (MITM)](https://de.wikipedia.org/wiki/Man-in-the-Middle-Angriff)
 
 ### Maßnahmen
+* Verkleinern der Broadcast-Domäne (Netzwerksegmentierung)
 * [DHCP-Snooping](https://de.wikipedia.org/wiki/DHCP-Snooping)
 * [Authentifizierung per IEEE 802.1X](https://de.wikipedia.org/wiki/IEEE_802.1X)
 * [Security Awareness => **Un**sicherheitsbewustsein](https://de.wikipedia.org/wiki/Security_Awareness)

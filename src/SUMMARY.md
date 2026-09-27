@@ -30,9 +30,9 @@
 * [Serverdienste](./serverdienste.md)
   * [DHCP](./dienste/dhcp.md)
   * [DNS](./dienste/dns.md)
+  * [Mail](./dienste/mail.md)
   * [NTP](./dienste/ntp.md)
   * [LDAP](./dienste/ldap.md)
-  * [Mail](./dienste/mail.md)
   * [VoIP](./dienste/voip.md)
 
 * [Planen der Konfiguration](./planen.md)

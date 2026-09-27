@@ -168,7 +168,7 @@ Da DNS als [Vertrauensanker](https://de.wikipedia.org/wiki/Vertrauensanker)/[PKI
 
 > **💬❗** Wie sollte mit Mails umgegangen werden, die nicht DKIM-signiert sind?
 
-### [DMARK](https://de.wikipedia.org/wiki/DMARC)
+### [DMARC](https://de.wikipedia.org/wiki/DMARC)
 **D**omain-based **M**essage **A**uthentication, **R**eporting and **C**onformance
 
 => im DNS wird für Absender-Domain eine DMARC-Richtlinie veröffentlicht, ob/wie SPF und DKIM eingesetzt werden

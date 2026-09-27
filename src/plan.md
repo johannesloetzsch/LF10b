@@ -71,17 +71,17 @@ gantt
     * [Auswahl gemäß Kundenanforderungen](./auswahl.md): Auswählen und Begründen im Bezug auf: [Wirtschaftlichkeit](./wirtschaftlichkeit.md), [Skalierbarkeit](./skalierbarkeit.md), [Administrierbarkeit](./administierbarkeit.md), Sicherheit
       * [Skalierbarkeit](./skalierbarkeit.md#kurz-und-knapp): scale up / scale out
 
-* **Klassenarbeit Di 29.9.2026** (doppelte Wertung, 90min, handschriftlich)
+* **Klassenarbeit Di 29.9.2026** (doppelte Wertung, 60min, handschriftlich)
   * Inhalte
     * [Plattformen](./plattformen.md)
       * [Cloud](./plattformen.md): Charakeristiken, Vor-/Nachteile, Service Models, Liefermodelle
       * [Virtualisierung](./virtualisierung.md): Hypervisor-Typen, Container-Arten
     * [Serverdienste](./serverdienste.md)
-      * [DHCP](./dienste/dhcp.md): 4-Way-Handshake, Adressvergabeverfahren, Ausfallsicherheit, SLAAC
-      * [DNS](./dienste/dns.md): URI, FQDN, Arten von Nameservern, RR-Typen, DNSSEC
+      * [**DHCP**](./dienste/dhcp.md): 4-Way-Handshake, Adressvergabeverfahren, SLAAC, Sicherheit
+      * [**DNS**](./dienste/dns.md): URI, FQDN, Arten von Nameservern, RR-Typen, DNSSEC
+      * [**Mail**](./dienste/mail.md): MUA/MTA/MDA, MX, SPF, DKIM, DMARC
       * [NTP](./dienste/ntp.md): Funktionsweise
       * [LDAP](./dienste/ldap.md): 4 AD Hauptkomponenten
-      * [Mail](./dienste/mail.md): MUA/MTA/MDA, MX, SPF, DKIM, DMARK
       * [VoIP](./dienste/voip.md): Protokolle benennen
 
 * **Projektplan** (einfache Wertung)

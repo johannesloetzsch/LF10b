@@ -18,17 +18,6 @@
 <!-- toc -->
 
 
-> **💬❗**
-> Welche langfristigen Folgen kann eine Entscheidung für eine Plattform bedeuten?
-
-
-## [Technische Schulden](https://de.wikipedia.org/wiki/Technische_Schulden) und [Vendor Lock-in](https://de.wikipedia.org/wiki/Lock-in-Effekt)
-
-
-> **💬**
-> Inwieweit sollten offene Standarts bei der Auswahl einer Plattform bzw. eines Anbieters berücksichtigt werden?
-
-
 ## [Cloud](https://de.wikipedia.org/wiki/Cloud_Computing)
 
 > **📝❗** FiSi AP2 Analyse Winter 2021 Aufgabe 1
@@ -124,3 +113,15 @@ Architektur aus vernetzten Servern („Knoten“), die zusammenwirken um einen g
 Werden üblicherweise eingesetzt um Kapazität (Compute + Storage) und Verfügbarkeit im benötigten Maß gewährleisten zu können.
 
 Basieren auf dem Prinzip der [Horizontalen Skalierung (scale out)](https://de.wikipedia.org/wiki/Skalierbarkeit#Horizontale_Skalierung_(scale_out).)
+
+
+
+## [Technische Schulden](https://de.wikipedia.org/wiki/Technische_Schulden) und [Vendor Lock-in](https://de.wikipedia.org/wiki/Lock-in-Effekt)
+
+> **💬❗**
+> Welche langfristigen Folgen kann eine Entscheidung für eine Plattform bedeuten?
+
+> **📝❗** FiSi AP2 Konzeption Sommer 2024 Aufgabe 1
+
+> **💬**
+> Inwieweit sollten offene Standarts bei der Auswahl einer Plattform bzw. eines Anbieters berücksichtigt werden?
