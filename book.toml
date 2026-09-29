@@ -16,3 +16,4 @@ command = "mdbook-toc"
 git-repository-url = "https://github.com/johannesloetzsch/LF10b/tree/main"
 edit-url-template = "https://github.com/johannesloetzsch/LF10b/tree/main/{path}"
 additional-js =["mermaid.min.js", "mermaid-init.js"]
+additional-css = ["fix-width.css"]

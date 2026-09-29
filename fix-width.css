@@ -1,0 +1,104 @@
+/* =====================================================================
+   LF10b — table & embedded-content width layout
+
+   Injected via book.toml → [output.html] additional-css. mdBook copies
+   the file into book/ and links it AFTER css/variables.css,
+   css/general.css and css/chrome.css, so these plain rules win the
+   cascade without needing !important.
+
+   Reference points in the mdBook 0.4.40 theme:
+     general.css:31   main { overflow-wrap: break-word }
+     general.css:35   .table-wrapper { overflow-x: auto }
+     general.css:101  .content main { margin-inline: auto; max-width: 750px }
+     general.css:125  table td { padding: 3px 20px }
+     chrome.css:22    #body-container { overflow-x: clip }
+   ===================================================================== */
+
+/* -- 1. Reclaim the theme's per-cell padding --------------------------
+   general.css:125 sets `table td { padding: 3px 20px }`, i.e. 40px of
+   horizontal padding per cell. On the 7-column table in
+   src/administierbarkeit.md that is 280px of a 750px column spent on
+   whitespace. */
+.content table td,
+.content table th {
+    padding: 0.35em 0.6em;
+}
+
+/* -- 2. Cap tables at the available width ----------------------------
+   `max-width`, not `width`: tables that already fit keep their natural
+   width instead of stretching across the whole column. */
+.content table {
+    max-width: 100%;
+}
+
+/* -- 3. Allow over-long tokens to break ------------------------------
+   The theme's `main { overflow-wrap: break-word }` (general.css:31)
+   cannot help table cells: per CSS spec `break-word` does not reduce a
+   cell's min/max-content width, only `anywhere` does. Needed for the
+   100-char DNSSEC signature at src/dienste/dns.md:184, the IPv6 literal
+   at :177, and compounds such as `Konfigurationsmanagementsysteme`
+   (src/administierbarkeit.md:44).
+
+   `hyphens: auto` is consulted first and uses the browser's German
+   hyphenation patterns (<html lang="de">), so `anywhere` is only ever
+   reached for genuinely unbreakable runs such as the base64 signature. */
+.content table td,
+.content table th {
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    overflow-wrap: anywhere;
+}
+
+/* -- 4. Let wide tables break out of the 750px text column ------------
+   `main` is centred (general.css:101-104), so
+   `margin-inline-start: calc(50% - width/2)` re-centres the wrapper on
+   main's centre while letting it grow into the free space either side.
+   Deliberately no transform: this keeps the change out of the stacking
+   context and makes the resulting overflow easy to reason about.
+
+   The clamp must account for the sidebar, because #body-container is
+   `overflow-x: clip` (chrome.css:22) — excess width is silently
+   clipped rather than scrollable. `--sidebar-width` is the right knob:
+   book/book.js updates it live via setProperty('--sidebar-width', ...)
+   when the sidebar is drag-resized. */
+body {
+    --table-breakout: min(1150px, calc(100vw - 2rem));
+}
+
+body.sidebar-visible {
+    --table-breakout: min(1150px, calc(100vw - var(--sidebar-width) - 2rem));
+}
+
+.content .table-wrapper {
+    width: var(--table-breakout);
+    margin-inline-start: calc(50% - var(--table-breakout) / 2);
+}
+
+/* -- 5. Embedded content, same overflow class -----------------------
+   src/dienste/dns.md:290 and :292 embed <iframe width="1024"> inside a
+   750px column, and src/virtualisierung.md:37 has two unsized <img>
+   inside a table cell. */
+.content table img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content iframe {
+    max-width: 100%;
+}
+
+/* -- 6. Undo the breakout when printing -------------------------------
+   print.css hides the sidebar and sets `#content { max-width: none }`,
+   but `body.sidebar-visible` persists in the markup, so the clamp above
+   would otherwise subtract 300px from the paper width. */
+@media print {
+    body,
+    body.sidebar-visible {
+        --table-breakout: 100%;
+    }
+
+    .content .table-wrapper {
+        width: auto;
+        margin-inline-start: 0;
+    }
+}
