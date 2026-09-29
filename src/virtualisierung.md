@@ -15,7 +15,7 @@ Die Implementierung kann jeweils als **Emulation** in Software (flexibel aber in
 Moderne Prozessoren verfügen über geeignete Erweiterungen um Virtualisierung in Hardware effizient zu unterstützen. Die Kontrolle erfolgt üblicherweise in Software durch den sogenannten 
 [**Hypervisor**](https://de.wikipedia.org/wiki/Hypervisor) (auch **Virtual-Machine-Monitor** genannt), welcher das Betriebssystems des Hosts ergänzt (Typ-2) oder ersetzt (Typ-1).
 
-Für viele Anwendungsfälle ist eine Isolation von Systemen erwünscht, jedoch keine Virtualisierung von vollständigen Maschinen notwendig.Für diesen Fall können leichtgewichtige **Virtual Environments** (VE) verwendet werden, deren Funktionalität direkt vom Betriebssystem ohne zusätzlichen Hypervisor bereitgestellt wird. Historisch sind [Jails](https://en.wikipedia.org/wiki/FreeBSD_jail) wichtig. Heute sind Container nach dem [**OCI-Standart**](https://de.wikipedia.org/wiki/Open_Container_Initiative), insbesondere [**Docker**](https://de.wikipedia.org/wiki/Docker_(Software)) sehr verbreitet.
+Für viele Anwendungsfälle ist eine Isolation von Systemen erwünscht, jedoch keine Virtualisierung von vollständigen Maschinen notwendig.Für diesen Fall können leichtgewichtige **Virtual Environments** (VE) verwendet werden, deren Funktionalität direkt vom Betriebssystem ohne zusätzlichen Hypervisor bereitgestellt wird. Historisch sind [Jails](https://en.wikipedia.org/wiki/FreeBSD_jail) wichtig. Heute sind Container nach dem [**OCI-Standard**](https://de.wikipedia.org/wiki/Open_Container_Initiative), insbesondere [**Docker**](https://de.wikipedia.org/wiki/Docker_(Software)) sehr verbreitet.
 
 
 ## Hypervisor-Typen und Container-Arten

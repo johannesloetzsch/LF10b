@@ -41,10 +41,10 @@ RFC 3711
 
 (seit 2011)
 
-=> W3C-/IETF-Standart, der mittlerweile von allen verbreiteten Browsern unterstützt wird
+=> W3C-/IETF-Standard, der mittlerweile von allen verbreiteten Browsern unterstützt wird
 
 * basiert auf [HTML5](https://de.wikipedia.org/wiki/HTML5) und [JavaScript](https://de.wikipedia.org/wiki/JavaScript)
-* Verschlüsselung über [DTLS](https://de.wikipedia.org/wiki/Datagram_Transport_Layer_Security) und SRTP im Standart vorgeschrieben 🤗
+* Verschlüsselung über [DTLS](https://de.wikipedia.org/wiki/Datagram_Transport_Layer_Security) und SRTP im Standard vorgeschrieben 🤗
 * [**Peer-to-Peer**](https://de.wikipedia.org/wiki/Peer-to-Peer)
   * [NAT traversal](https://de.wikipedia.org/wiki/Netzwerkadress%C3%BCbersetzung#NAT-Traversal) mittels [ICE](https://de.wikipedia.org/wiki/Interactive_Connectivity_Establishment)/[STUN](https://de.wikipedia.org/wiki/Session_Traversal_Utilities_for_NAT)/[TURN](https://de.wikipedia.org/w/index.php?title=TURN&action=edit&redlink=1)
 

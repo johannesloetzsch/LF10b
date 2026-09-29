@@ -80,7 +80,7 @@ z.B. virtuelle private Server (VPS), „AWS Elastic Compute Cloud2“ (EC2)
 
 > **💬** Welche Cloud-Plattformen/-Lösungen/-Produkte sollte man kennen?
 >
-> Auf welchen Standarts basieren sie und welche Alternativen gibt es?
+> Auf welchen Standards basieren sie und welche Alternativen gibt es?
 
 
 ### Liefermodelle (Bereitstellungsarten)
@@ -124,4 +124,4 @@ Basieren auf dem Prinzip der [Horizontalen Skalierung (scale out)](https://de.wi
 > **📝❗** FiSi AP2 Konzeption Sommer 2024 Aufgabe 1
 
 > **💬**
-> Inwieweit sollten offene Standarts bei der Auswahl einer Plattform bzw. eines Anbieters berücksichtigt werden?
+> Inwieweit sollten offene Standards bei der Auswahl einer Plattform bzw. eines Anbieters berücksichtigt werden?

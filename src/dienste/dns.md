@@ -88,6 +88,7 @@ Teil des Domänenbaums, für den ein Nameserver zuständig ist
 
 Beispiel: Was ist alles nötig, um eine IP für `de.wikipedia.org.` zu erhalten?
 ```mermaid
+%%{init: {"flowchart": {"wrappingWidth": 600}}}%%
 flowchart LR
   classDef forwarding fill:#ccf
   classDef recursive fill:#afa
@@ -97,7 +98,7 @@ flowchart LR
    client_os{{Betriebssystem}}
    client_hosts["/etc/hosts"]
    client_ns([Stub Resolver]):::forwarding
-   client_conf["/etc/resolv.conf\nnameserver 192.168.0.1"]
+   client_conf["/etc/resolv.conf<br/>nameserver 192.168.0.1"]
    client_cache[Cache]
    client_app -- 1a --> client_os
    client_os -- 1b --> client_hosts
@@ -105,7 +106,7 @@ flowchart LR
    client_ns -- 1d --> client_cache
    client_ns -- 1e --> client_conf
   end
-  subgraph Router[router.local\n192.168.0.1]
+  subgraph Router[router.local<br/>192.168.0.1]
    router_ns([Forwarding NS]):::forwarding
    router_cache[Cache]
    router_ns -- 3 --> router_cache
@@ -113,13 +114,13 @@ flowchart LR
   subgraph ISP[ns.isp.com]
     isp_ns((Recursive NS)):::recursive
     isp_cache[Cache]
-    isp_root_hint[Root Hint\na.root-servers.net]
+    isp_root_hint[Root Hint<br/>a.root-servers.net]
     isp_ns -- 5,7,9 --> isp_cache
     isp_ns -- 6a --> isp_root_hint
   end
-  root[(a.root-servers.net\nNS .\norg.                    2756    IN      NS      a0.org.afilias-nst.info.)]:::authoritative
-  org[(a0.org.afilias-nst.info\nNS org.\nwikipedia.org.          12831   IN      NS      ns0.wikimedia.org.)]:::authoritative
-  wikipedia[(ns0.wikimedia.org\nNS wikipedia.org.\nde.wikipedia.org.       21434   IN      CNAME   dyna.wikimedia.org.\ndyna.wikimedia.org.     180     IN      A       185.15.59.224)]:::authoritative
+  root[(a.root-servers.net<br/>NS .<br/>org.                    2756    IN      NS      a0.org.afilias-nst.info.)]:::authoritative
+  org[(a0.org.afilias-nst.info<br/>NS org.<br/>wikipedia.org.          12831   IN      NS      ns0.wikimedia.org.)]:::authoritative
+  wikipedia[(ns0.wikimedia.org<br/>NS wikipedia.org.<br/>de.wikipedia.org.       21434   IN      CNAME   dyna.wikimedia.org.<br/>dyna.wikimedia.org.     180     IN      A       185.15.59.224)]:::authoritative
   client_ns -- 2 --> router_ns
   router_ns -- 4 --> isp_ns
   isp_ns -- 6b --> root

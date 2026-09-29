@@ -7,7 +7,7 @@
 ![](https://upload.wikimedia.org/wikipedia/commons/3/3e/Datenstruktur.png)
 
 
-### Standart-Attributtypen
+### Standard-Attributtypen
 
 > **o**organization
 >

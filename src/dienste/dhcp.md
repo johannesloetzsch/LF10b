@@ -46,7 +46,7 @@ sequenceDiagram
 2. **OFFER**
 * Server in der Broadcastdomain schlagen dem Client eine IP vor
 
-4. **REQUEST**
+3. **REQUEST**
 * Client wählt einen der Server aus, der eine DHCPOFFER gesendet hat und „beantragt“ die vorgeschlagene IP
 
 4. **ACK**NOWLEDGE
