@@ -1,12 +1,18 @@
-# Reflexion — SOL 21.11.-23.11. 2025
+# Reflexion — SOL 02.10. 2026
 
-> **Aufgabe**: Denken Sie darüber nach, wie Sie ihr Projekt aus LF10 weiter verbessern können.
-> Fokussieren Sie sich dabei insbesondere auf Aspekte der **IT-Sicherheit**.
->
-> Frischen Sie ihre [Kenntnisse aus aus LF4](https://johannesloetzsch.github.io/LF4/) auf.
->
-> Machen Sie sich Gedanken, ob Sie im Rahmen des Praxisprojektes von LF11 das Projekt aus LF10 weiterentwickeln oder ein neues Projekt beginnen möchten. **Beschreiben Sie** *(kurz und knapp)* **Ihre Projektidee**.
+> 1. Beenden Sie ihr Projekt.
+> - Prüfen Sie, dass sie die [Anforderungen](https://johannesloetzsch.github.io/LF10b/optimieren.html) umgesetzt haben.
+> - Stellen Sie sicher, dass Sie einen Wiederanlaufplan haben, der aktuell und getestet ist.
 
+> 2. Reflexieren Sie das Projektergebnis.
+> - Welcher Stand an Ausfallsicherheit konnte erreicht werden?
+>   -  Was sind die größten verbleibenden Risiken?
+> - In welchem Umfang konnten Sie Automatisierung umsetzen?
+> - Welche Lernerfolge haben Sie erzielt?
+> - In welchem Umfang konnten Sie die eigenen Projektziele erreichen?
+
+
+<!--
 ## Vorschläge für Projekte LF11
 
 ### AE
@@ -25,3 +31,4 @@
 * Authentifizierung
 * VPN
 * **Absicherung gemäß BSI-Grundschutz**, siehe [Hinweise für SI](https://johannesloetzsch.github.io/LF11b/planung.html)
+-->

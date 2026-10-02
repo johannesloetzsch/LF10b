@@ -41,4 +41,4 @@
   * [Dokumentation](./dokumentation.md)
   * [Optimieren](./optimieren.md)
   * […](./examples/ai/OER_with_Agent.md)
-  <!--* [Reflexion](./reflexion.md)-->
+  * [Reflexion](./reflexion.md)
