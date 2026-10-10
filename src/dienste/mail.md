@@ -173,6 +173,7 @@ Da DNS als [Vertrauensanker](https://de.wikipedia.org/wiki/Vertrauensanker)/[PKI
 
 => im DNS wird für Absender-Domain eine DMARC-Richtlinie veröffentlicht, ob/wie SPF und DKIM eingesetzt werden
 
+- [DMARC Lookup](https://easydmarc.com/tools/dmarc-lookup) nutzt deine Domain DMARC?   
 > [**💬**](https://de.wikipedia.org/wiki/DMARC#Kritik) Welche Probleme mit DMARC gibt es?
 
 
