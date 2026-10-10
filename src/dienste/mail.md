@@ -177,7 +177,6 @@ Da DNS als [Vertrauensanker](https://de.wikipedia.org/wiki/Vertrauensanker)/[PKI
 > [**💬**](https://de.wikipedia.org/wiki/DMARC#Kritik) Welche Probleme mit DMARC gibt es?
 
 
-
 ### Verschlüsselung (und Ende-zu-Ende-Signaturen)
 Verbindungsorientiert (TLS) vs. [Ende-zu-Ende (S/MIME)](https://de.wikipedia.org/wiki/S/MIME)
 
