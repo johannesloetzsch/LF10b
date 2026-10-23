@@ -15,6 +15,8 @@
     * [SNMP](./snmp.md)
   * [**Automatisierung von Administrationsprozessen**](./automatisierung.md)
     * [Ansible](./examples/ansible/README.md)
+      * [0 Minimalbeispiel](./examples/ansible/0_minimalbeispiel/README.md)
+      * [1 Grundlagen](./examples/ansible/1_grundlagen/README.md)
   * [Versionierung](./versionierung.md)
 
 * [Auswahl gemäß Kundenanforderungen](./auswahl.md)
